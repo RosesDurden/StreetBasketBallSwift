@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB5C268F2195D74C0028837E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BB5C268E2195D74C0028837E /* Podfile */; };
 		BBB39D762195D21E0029DDA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB39D752195D21E0029DDA3 /* AppDelegate.swift */; };
 		BBB39D782195D21F0029DDA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB39D772195D21F0029DDA3 /* ViewController.swift */; };
 		BBB39D7B2195D21F0029DDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB39D792195D21F0029DDA3 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		BBB39D832195D2240029DDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB39D812195D2240029DDA3 /* LaunchScreen.storyboard */; };
 		BBB39D8E2195D2250029DDA3 /* StreetBasketBallSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB39D8D2195D2250029DDA3 /* StreetBasketBallSwiftTests.swift */; };
 		BBB39D992195D2250029DDA3 /* StreetBasketBallSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB39D982195D2250029DDA3 /* StreetBasketBallSwiftUITests.swift */; };
+		C3DF8966C1EE7D45647687CD /* Pods_StreetBasketBallSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0E3187D0A8D19F0D17B30D /* Pods_StreetBasketBallSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01A38341469A347DAA1F85E4 /* Pods-StreetBasketBallSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetBasketBallSwift.debug.xcconfig"; path = "Target Support Files/Pods-StreetBasketBallSwift/Pods-StreetBasketBallSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		6D3B3371F16D595CAAD61AB5 /* Pods-StreetBasketBallSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetBasketBallSwift.release.xcconfig"; path = "Target Support Files/Pods-StreetBasketBallSwift/Pods-StreetBasketBallSwift.release.xcconfig"; sourceTree = "<group>"; };
+		BB5C268E2195D74C0028837E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		BBB011462195D60200FDD1BA /* FBSDKLoginKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FBSDKLoginKit; path = Pods/FBSDKLoginKit; sourceTree = "<group>"; };
 		BBB39D722195D21E0029DDA3 /* StreetBasketBallSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetBasketBallSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB39D752195D21E0029DDA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBB39D772195D21F0029DDA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,9 @@
 		BBB39D942195D2250029DDA3 /* StreetBasketBallSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetBasketBallSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB39D982195D2250029DDA3 /* StreetBasketBallSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetBasketBallSwiftUITests.swift; sourceTree = "<group>"; };
 		BBB39D9A2195D2250029DDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB811FB010D9D854DEF219C /* Pods_StreetBasketBallSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreetBasketBallSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0E3187D0A8D19F0D17B30D /* Pods_StreetBasketBallSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreetBasketBallSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40802081F91181DE76AC68F /* Pods_StreetBasketBallSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreetBasketBallSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DF8966C1EE7D45647687CD /* Pods_StreetBasketBallSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +86,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24A5901268D08986961CB2BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01A38341469A347DAA1F85E4 /* Pods-StreetBasketBallSwift.debug.xcconfig */,
+				6D3B3371F16D595CAAD61AB5 /* Pods-StreetBasketBallSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BBB39D692195D21E0029DDA3 = {
 			isa = PBXGroup;
 			children = (
+				BB5C268E2195D74C0028837E /* Podfile */,
 				BBB39D742195D21E0029DDA3 /* StreetBasketBallSwift */,
 				BBB39D8C2195D2250029DDA3 /* StreetBasketBallSwiftTests */,
 				BBB39D972195D2250029DDA3 /* StreetBasketBallSwiftUITests */,
 				BBB39D732195D21E0029DDA3 /* Products */,
+				CFFDF42DA852D58DCA9B1433 /* Frameworks */,
+				24A5901268D08986961CB2BD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +150,17 @@
 			path = StreetBasketBallSwiftUITests;
 			sourceTree = "<group>";
 		};
+		CFFDF42DA852D58DCA9B1433 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBB011462195D60200FDD1BA /* FBSDKLoginKit */,
+				CB0E3187D0A8D19F0D17B30D /* Pods_StreetBasketBallSwift.framework */,
+				F40802081F91181DE76AC68F /* Pods_StreetBasketBallSwiftTests.framework */,
+				BEB811FB010D9D854DEF219C /* Pods_StreetBasketBallSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBB39D9D2195D2250029DDA3 /* Build configuration list for PBXNativeTarget "StreetBasketBallSwift" */;
 			buildPhases = (
+				8D76D5783EDB9A7F7E5F844A /* [CP] Check Pods Manifest.lock */,
 				BBB39D6E2195D21E0029DDA3 /* Sources */,
 				BBB39D6F2195D21E0029DDA3 /* Frameworks */,
 				BBB39D702195D21E0029DDA3 /* Resources */,
+				CE3950FA7514ECEFFF014373 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +269,7 @@
 			files = (
 				BBB39D832195D2240029DDA3 /* LaunchScreen.storyboard in Resources */,
 				BBB39D802195D2240029DDA3 /* Assets.xcassets in Resources */,
+				BB5C268F2195D74C0028837E /* Podfile in Resources */,
 				BBB39D7B2195D21F0029DDA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +289,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D76D5783EDB9A7F7E5F844A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreetBasketBallSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE3950FA7514ECEFFF014373 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StreetBasketBallSwift/Pods-StreetBasketBallSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StreetBasketBallSwift/Pods-StreetBasketBallSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BBB39D6E2195D21E0029DDA3 /* Sources */ = {
@@ -432,6 +515,7 @@
 		};
 		BBB39D9E2195D2250029DDA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A38341469A347DAA1F85E4 /* Pods-StreetBasketBallSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +534,7 @@
 		};
 		BBB39D9F2195D2250029DDA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D3B3371F16D595CAAD61AB5 /* Pods-StreetBasketBallSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

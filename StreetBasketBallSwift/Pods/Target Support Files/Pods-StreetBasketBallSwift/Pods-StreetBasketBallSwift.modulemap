@@ -1,0 +1,6 @@
+framework module Pods_StreetBasketBallSwift {
+  umbrella header "Pods-StreetBasketBallSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

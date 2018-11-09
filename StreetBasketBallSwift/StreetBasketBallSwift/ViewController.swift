@@ -5,14 +5,19 @@
 //  Created by Roses on 09/11/2018.
 //  Copyright © 2018 Roses. All rights reserved.
 //
-
 import UIKit
 
-class ViewController: UIViewController {
+import FacebookLogin
+import FacebookCore
 
+class ViewController: UIViewController {
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //Facebook bouton de connexion
+        let boutonDeLogin = LoginButton(readPermissions: [ .publicProfile ])
+        boutonDeLogin.center = view.center
+        boutonDeLogin.
+        view.addSubview(boutonDeLogin)
     }
 
     override func didReceiveMemoryWarning() {
