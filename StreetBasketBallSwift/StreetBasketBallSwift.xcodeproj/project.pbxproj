@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BB5C268F2195D74C0028837E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BB5C268E2195D74C0028837E /* Podfile */; };
+		BB952660219733BC00BD36BE /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB95265F219733BC00BD36BE /* Playground.swift */; };
 		BBB39D762195D21E0029DDA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB39D752195D21E0029DDA3 /* AppDelegate.swift */; };
 		BBB39D782195D21F0029DDA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB39D772195D21F0029DDA3 /* ViewController.swift */; };
 		BBB39D7B2195D21F0029DDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB39D792195D21F0029DDA3 /* Main.storyboard */; };
@@ -16,6 +17,9 @@
 		BBB39D832195D2240029DDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB39D812195D2240029DDA3 /* LaunchScreen.storyboard */; };
 		BBB39D8E2195D2250029DDA3 /* StreetBasketBallSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB39D8D2195D2250029DDA3 /* StreetBasketBallSwiftTests.swift */; };
 		BBB39D992195D2250029DDA3 /* StreetBasketBallSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB39D982195D2250029DDA3 /* StreetBasketBallSwiftUITests.swift */; };
+		BBC03CC22195FF0C00F5A5F2 /* LoginSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC03CC12195FF0C00F5A5F2 /* LoginSuccessViewController.swift */; };
+		BBC03CC6219600A500F5A5F2 /* SelectFirstDisplayNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC03CC5219600A500F5A5F2 /* SelectFirstDisplayNavigationController.swift */; };
+		BBC03CCA2196F22000F5A5F2 /* PlaygroundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC03CC92196F22000F5A5F2 /* PlaygroundsViewController.swift */; };
 		C3DF8966C1EE7D45647687CD /* Pods_StreetBasketBallSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0E3187D0A8D19F0D17B30D /* Pods_StreetBasketBallSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +44,7 @@
 		01A38341469A347DAA1F85E4 /* Pods-StreetBasketBallSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetBasketBallSwift.debug.xcconfig"; path = "Target Support Files/Pods-StreetBasketBallSwift/Pods-StreetBasketBallSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		6D3B3371F16D595CAAD61AB5 /* Pods-StreetBasketBallSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetBasketBallSwift.release.xcconfig"; path = "Target Support Files/Pods-StreetBasketBallSwift/Pods-StreetBasketBallSwift.release.xcconfig"; sourceTree = "<group>"; };
 		BB5C268E2195D74C0028837E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		BB95265F219733BC00BD36BE /* Playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground.swift; sourceTree = "<group>"; };
 		BBB011462195D60200FDD1BA /* FBSDKLoginKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FBSDKLoginKit; path = Pods/FBSDKLoginKit; sourceTree = "<group>"; };
 		BBB39D722195D21E0029DDA3 /* StreetBasketBallSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetBasketBallSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB39D752195D21E0029DDA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +60,9 @@
 		BBB39D942195D2250029DDA3 /* StreetBasketBallSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetBasketBallSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB39D982195D2250029DDA3 /* StreetBasketBallSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetBasketBallSwiftUITests.swift; sourceTree = "<group>"; };
 		BBB39D9A2195D2250029DDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC03CC12195FF0C00F5A5F2 /* LoginSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccessViewController.swift; sourceTree = "<group>"; };
+		BBC03CC5219600A500F5A5F2 /* SelectFirstDisplayNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFirstDisplayNavigationController.swift; sourceTree = "<group>"; };
+		BBC03CC92196F22000F5A5F2 /* PlaygroundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundsViewController.swift; sourceTree = "<group>"; };
 		BEB811FB010D9D854DEF219C /* Pods_StreetBasketBallSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreetBasketBallSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0E3187D0A8D19F0D17B30D /* Pods_StreetBasketBallSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreetBasketBallSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40802081F91181DE76AC68F /* Pods_StreetBasketBallSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreetBasketBallSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,9 +129,9 @@
 		BBB39D742195D21E0029DDA3 /* StreetBasketBallSwift */ = {
 			isa = PBXGroup;
 			children = (
+				BBC03CC82196F20E00F5A5F2 /* Playgrounds */,
+				BBC03CC72196F1E700F5A5F2 /* Login */,
 				BBB39D752195D21E0029DDA3 /* AppDelegate.swift */,
-				BBB39D772195D21F0029DDA3 /* ViewController.swift */,
-				BBB39D792195D21F0029DDA3 /* Main.storyboard */,
 				BBB39D7F2195D2240029DDA3 /* Assets.xcassets */,
 				BBB39D812195D2240029DDA3 /* LaunchScreen.storyboard */,
 				BBB39D842195D2240029DDA3 /* Info.plist */,
@@ -148,6 +156,26 @@
 				BBB39D9A2195D2250029DDA3 /* Info.plist */,
 			);
 			path = StreetBasketBallSwiftUITests;
+			sourceTree = "<group>";
+		};
+		BBC03CC72196F1E700F5A5F2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BBC03CC5219600A500F5A5F2 /* SelectFirstDisplayNavigationController.swift */,
+				BBB39D772195D21F0029DDA3 /* ViewController.swift */,
+				BBC03CC12195FF0C00F5A5F2 /* LoginSuccessViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BBC03CC82196F20E00F5A5F2 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				BBB39D792195D21F0029DDA3 /* Main.storyboard */,
+				BBC03CC92196F22000F5A5F2 /* PlaygroundsViewController.swift */,
+				BB95265F219733BC00BD36BE /* Playground.swift */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 		CFFDF42DA852D58DCA9B1433 /* Frameworks */ = {
@@ -342,8 +370,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC03CC22195FF0C00F5A5F2 /* LoginSuccessViewController.swift in Sources */,
 				BBB39D782195D21F0029DDA3 /* ViewController.swift in Sources */,
 				BBB39D7E2195D21F0029DDA3 /* StreetBasketBallSwift.xcdatamodeld in Sources */,
+				BBC03CCA2196F22000F5A5F2 /* PlaygroundsViewController.swift in Sources */,
+				BB952660219733BC00BD36BE /* Playground.swift in Sources */,
+				BBC03CC6219600A500F5A5F2 /* SelectFirstDisplayNavigationController.swift in Sources */,
 				BBB39D762195D21E0029DDA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
