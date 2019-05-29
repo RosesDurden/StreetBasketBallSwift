@@ -17,10 +17,12 @@ PODS:
     - Bolts (~> 1.9)
   - FBSDKLoginKit (4.38.1):
     - FBSDKCoreKit
+  - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
   - FacebookCore
   - FacebookLogin
+  - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -29,6 +31,7 @@ SPEC REPOS:
     - FacebookLogin
     - FBSDKCoreKit
     - FBSDKLoginKit
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
@@ -36,7 +39,8 @@ SPEC CHECKSUMS:
   FacebookLogin: ebcf34714a1cb9f0759d9f071cfb01ed500996cf
   FBSDKCoreKit: 8d47857400e2f5bdea697a80daff882e91c84ef6
   FBSDKLoginKit: 4621c690d9dd8628031a4791497062183ea34b0d
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 4bf98ef79f48f4a27c01f67d495ed96a7d0edc19
+PODFILE CHECKSUM: 7098c6ab82e0e331ad17d4b79406cb5def415f98
 
 COCOAPODS: 1.6.0.beta.1

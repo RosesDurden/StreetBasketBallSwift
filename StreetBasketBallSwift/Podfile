@@ -1,5 +1,6 @@
 target 'StreetBasketBallSwift' do
 use_frameworks!
-pod 'FacebookCore'
-pod 'FacebookLogin'
+    pod 'FacebookCore'
+    pod 'FacebookLogin'
+    pod 'SwiftyJSON', '~> 4.0'
 end

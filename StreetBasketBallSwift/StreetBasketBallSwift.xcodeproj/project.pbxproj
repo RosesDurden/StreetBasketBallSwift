@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB18699821A5C8C100D05942 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB18699721A5C8AC00D05942 /* SwiftyJSON.framework */; };
+		BB222E9E21B2FA670042B645 /* PlaygroundTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB222E9D21B2FA670042B645 /* PlaygroundTableViewCell.swift */; };
+		BB24393A21A21132001C59DC /* trackme.png in Resources */ = {isa = PBXBuildFile; fileRef = BB24393921A21132001C59DC /* trackme.png */; };
+		BB24393C21A223B2001C59DC /* playgroundImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB24393B21A223B1001C59DC /* playgroundImage.jpg */; };
+		BB24393E21A2244F001C59DC /* PlaygroundsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24393D21A2244F001C59DC /* PlaygroundsTableViewController.swift */; };
+		BB547D0C21C40E510052D86F /* basket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB547D0421C40E500052D86F /* basket.jpg */; };
+		BB547D0E21C40EF10052D86F /* court_panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB547D0D21C40EF10052D86F /* court_panel.jpg */; };
+		BB548B47219BF9630035B8B6 /* Playgrounds.json in Resources */ = {isa = PBXBuildFile; fileRef = BB548B46219BF9630035B8B6 /* Playgrounds.json */; };
 		BB5C268F2195D74C0028837E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BB5C268E2195D74C0028837E /* Podfile */; };
+		BB85C5E521A3D0A600E02B0A /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85C5E421A3D0A600E02B0A /* RatingControl.swift */; };
+		BB8EBCD121DF0B250095F25A /* PlaygroundDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8EBCD021DF0B250095F25A /* PlaygroundDetailViewController.swift */; };
 		BB952660219733BC00BD36BE /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB95265F219733BC00BD36BE /* Playground.swift */; };
 		BBB39D762195D21E0029DDA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB39D752195D21E0029DDA3 /* AppDelegate.swift */; };
 		BBB39D782195D21F0029DDA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB39D772195D21F0029DDA3 /* ViewController.swift */; };
@@ -24,6 +34,55 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BB18698A21A5C8AC00D05942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB1868BF21A5C8AC00D05942 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7E010B50BFB7BA9040B670F379D317EF;
+			remoteInfo = Bolts;
+		};
+		BB18698C21A5C8AC00D05942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB1868BF21A5C8AC00D05942 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4D2BD552EAA540857EEE0D9ADB28517;
+			remoteInfo = FacebookCore;
+		};
+		BB18698E21A5C8AC00D05942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB1868BF21A5C8AC00D05942 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3AC0DE64AE047BFFA6ED61E3E78AB0A8;
+			remoteInfo = FacebookLogin;
+		};
+		BB18699021A5C8AC00D05942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB1868BF21A5C8AC00D05942 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D358616FE56703B258F2F74DC0949A39;
+			remoteInfo = FBSDKCoreKit;
+		};
+		BB18699221A5C8AC00D05942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB1868BF21A5C8AC00D05942 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4636549CAB4E36546A60747529550F92;
+			remoteInfo = FBSDKLoginKit;
+		};
+		BB18699421A5C8AC00D05942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB1868BF21A5C8AC00D05942 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDCB506396FBDBD4F1887ED3377DC164;
+			remoteInfo = "Pods-StreetBasketBallSwift";
+		};
+		BB18699621A5C8AC00D05942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB1868BF21A5C8AC00D05942 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D4E4229C2A94883CD79DA6DF92D0D13;
+			remoteInfo = SwiftyJSON;
+		};
 		BBB39D8A2195D2250029DDA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BBB39D6A2195D21E0029DDA3 /* Project object */;
@@ -43,7 +102,388 @@
 /* Begin PBXFileReference section */
 		01A38341469A347DAA1F85E4 /* Pods-StreetBasketBallSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetBasketBallSwift.debug.xcconfig"; path = "Target Support Files/Pods-StreetBasketBallSwift/Pods-StreetBasketBallSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		6D3B3371F16D595CAAD61AB5 /* Pods-StreetBasketBallSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetBasketBallSwift.release.xcconfig"; path = "Target Support Files/Pods-StreetBasketBallSwift/Pods-StreetBasketBallSwift.release.xcconfig"; sourceTree = "<group>"; };
+		BB1867DC21A5C8AB00D05942 /* FBSDKGraphRequestDataAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKGraphRequestDataAttachment.m; sourceTree = "<group>"; };
+		BB1867DD21A5C8AB00D05942 /* FBSDKWebViewAppLinkResolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKWebViewAppLinkResolver.h; sourceTree = "<group>"; };
+		BB1867DE21A5C8AB00D05942 /* FBSDKProfilePictureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKProfilePictureView.m; sourceTree = "<group>"; };
+		BB1867DF21A5C8AB00D05942 /* FBSDKProfile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKProfile.m; sourceTree = "<group>"; };
+		BB1867E021A5C8AB00D05942 /* FBSDKTestUsersManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKTestUsersManager.h; sourceTree = "<group>"; };
+		BB1867E121A5C8AB00D05942 /* FBSDKAppLinkReturnToRefererView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAppLinkReturnToRefererView.h; sourceTree = "<group>"; };
+		BB1867E221A5C8AB00D05942 /* FBSDKAppEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAppEvents.h; sourceTree = "<group>"; };
+		BB1867E321A5C8AB00D05942 /* FBSDKGraphErrorRecoveryProcessor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKGraphErrorRecoveryProcessor.m; sourceTree = "<group>"; };
+		BB1867E421A5C8AB00D05942 /* FBSDKAccessToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAccessToken.h; sourceTree = "<group>"; };
+		BB1867E521A5C8AB00D05942 /* FBSDKURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKURL.h; sourceTree = "<group>"; };
+		BB1867E621A5C8AB00D05942 /* FBSDKAppLinkTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAppLinkTarget.h; sourceTree = "<group>"; };
+		BB1867E721A5C8AB00D05942 /* FBSDKAppLinkResolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAppLinkResolver.m; sourceTree = "<group>"; };
+		BB1867E821A5C8AB00D05942 /* FBSDKAppLinkNavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAppLinkNavigation.h; sourceTree = "<group>"; };
+		BB1867E921A5C8AB00D05942 /* FBSDKUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKUtility.h; sourceTree = "<group>"; };
+		BB1867EA21A5C8AB00D05942 /* FBSDKConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKConstants.h; sourceTree = "<group>"; };
+		BB1867EB21A5C8AB00D05942 /* FBSDKSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKSettings.h; sourceTree = "<group>"; };
+		BB1867EC21A5C8AB00D05942 /* FBSDKAppLinkReturnToRefererController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAppLinkReturnToRefererController.h; sourceTree = "<group>"; };
+		BB1867ED21A5C8AB00D05942 /* FBSDKGraphRequestConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKGraphRequestConnection.m; sourceTree = "<group>"; };
+		BB1867EE21A5C8AB00D05942 /* FBSDKAppLinkUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAppLinkUtility.h; sourceTree = "<group>"; };
+		BB1867EF21A5C8AB00D05942 /* FBSDKMeasurementEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKMeasurementEvent.h; sourceTree = "<group>"; };
+		BB1867F121A5C8AB00D05942 /* FBSDKSystemAccountStoreAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKSystemAccountStoreAdapter.h; sourceTree = "<group>"; };
+		BB1867F221A5C8AB00D05942 /* FBSDKImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKImageDownloader.m; sourceTree = "<group>"; };
+		BB1867F421A5C8AB00D05942 /* FBSDKColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKColor.h; sourceTree = "<group>"; };
+		BB1867F521A5C8AB00D05942 /* FBSDKViewImpressionTracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKViewImpressionTracker.m; sourceTree = "<group>"; };
+		BB1867F621A5C8AB00D05942 /* FBSDKIcon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKIcon.m; sourceTree = "<group>"; };
+		BB1867F721A5C8AB00D05942 /* FBSDKLogo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKLogo.m; sourceTree = "<group>"; };
+		BB1867F821A5C8AB00D05942 /* FBSDKMaleSilhouetteIcon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKMaleSilhouetteIcon.h; sourceTree = "<group>"; };
+		BB1867F921A5C8AB00D05942 /* FBSDKCloseIcon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKCloseIcon.h; sourceTree = "<group>"; };
+		BB1867FA21A5C8AB00D05942 /* FBSDKUIUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKUIUtility.h; sourceTree = "<group>"; };
+		BB1867FB21A5C8AB00D05942 /* FBSDKColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKColor.m; sourceTree = "<group>"; };
+		BB1867FC21A5C8AB00D05942 /* FBSDKViewImpressionTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKViewImpressionTracker.h; sourceTree = "<group>"; };
+		BB1867FD21A5C8AB00D05942 /* FBSDKMaleSilhouetteIcon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKMaleSilhouetteIcon.m; sourceTree = "<group>"; };
+		BB1867FE21A5C8AB00D05942 /* FBSDKLogo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLogo.h; sourceTree = "<group>"; };
+		BB1867FF21A5C8AB00D05942 /* FBSDKIcon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKIcon.h; sourceTree = "<group>"; };
+		BB18680021A5C8AB00D05942 /* FBSDKCloseIcon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKCloseIcon.m; sourceTree = "<group>"; };
+		BB18680121A5C8AB00D05942 /* FBSDKButton+Subclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKButton+Subclass.h"; sourceTree = "<group>"; };
+		BB18680221A5C8AB00D05942 /* FBSDKTriStateBOOL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKTriStateBOOL.h; sourceTree = "<group>"; };
+		BB18680321A5C8AB00D05942 /* FBSDKTypeUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKTypeUtility.h; sourceTree = "<group>"; };
+		BB18680421A5C8AB00D05942 /* FBSDKCoreKit+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKCoreKit+Internal.h"; sourceTree = "<group>"; };
+		BB18680521A5C8AB00D05942 /* FBSDKLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKLogger.m; sourceTree = "<group>"; };
+		BB18680621A5C8AB00D05942 /* FBSDKSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKSwizzler.m; sourceTree = "<group>"; };
+		BB18680721A5C8AB00D05942 /* FBSDKDynamicFrameworkLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKDynamicFrameworkLoader.h; sourceTree = "<group>"; };
+		BB18680821A5C8AB00D05942 /* FBSDKSettings+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKSettings+Internal.h"; sourceTree = "<group>"; };
+		BB18680A21A5C8AB00D05942 /* _FBSDKTemporaryErrorRecoveryAttempter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _FBSDKTemporaryErrorRecoveryAttempter.h; sourceTree = "<group>"; };
+		BB18680B21A5C8AB00D05942 /* FBSDKErrorRecoveryAttempter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKErrorRecoveryAttempter.h; sourceTree = "<group>"; };
+		BB18680C21A5C8AB00D05942 /* _FBSDKTemporaryErrorRecoveryAttempter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _FBSDKTemporaryErrorRecoveryAttempter.m; sourceTree = "<group>"; };
+		BB18680D21A5C8AB00D05942 /* FBSDKErrorRecoveryAttempter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKErrorRecoveryAttempter.m; sourceTree = "<group>"; };
+		BB18680E21A5C8AB00D05942 /* FBSDKMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKMath.h; sourceTree = "<group>"; };
+		BB18681021A5C8AB00D05942 /* FBSDKCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKCrypto.h; sourceTree = "<group>"; };
+		BB18681121A5C8AB00D05942 /* FBSDKCrypto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKCrypto.m; sourceTree = "<group>"; };
+		BB18681221A5C8AB00D05942 /* FBSDKDeviceRequestsHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKDeviceRequestsHelper.m; sourceTree = "<group>"; };
+		BB18681321A5C8AB00D05942 /* FBSDKURL_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKURL_Internal.h; sourceTree = "<group>"; };
+		BB18681421A5C8AB00D05942 /* FBSDKInternalUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKInternalUtility.m; sourceTree = "<group>"; };
+		BB18681521A5C8AB00D05942 /* FBSDKContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKContainerViewController.h; sourceTree = "<group>"; };
+		BB18681721A5C8AB00D05942 /* FBSDKGraphRequestMetadata.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKGraphRequestMetadata.m; sourceTree = "<group>"; };
+		BB18681821A5C8AB00D05942 /* FBSDKGraphRequestBody.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKGraphRequestBody.m; sourceTree = "<group>"; };
+		BB18681921A5C8AB00D05942 /* FBSDKGraphRequest+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKGraphRequest+Internal.h"; sourceTree = "<group>"; };
+		BB18681A21A5C8AB00D05942 /* FBSDKURLSessionTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKURLSessionTask.h; sourceTree = "<group>"; };
+		BB18681B21A5C8AB00D05942 /* FBSDKGraphRequestPiggybackManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKGraphRequestPiggybackManager.m; sourceTree = "<group>"; };
+		BB18681C21A5C8AB00D05942 /* FBSDKGraphRequestMetadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKGraphRequestMetadata.h; sourceTree = "<group>"; };
+		BB18681D21A5C8AB00D05942 /* FBSDKURLSessionTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKURLSessionTask.m; sourceTree = "<group>"; };
+		BB18681E21A5C8AB00D05942 /* FBSDKGraphRequestBody.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKGraphRequestBody.h; sourceTree = "<group>"; };
+		BB18681F21A5C8AB00D05942 /* FBSDKGraphRequestConnection+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKGraphRequestConnection+Internal.h"; sourceTree = "<group>"; };
+		BB18682021A5C8AB00D05942 /* FBSDKGraphRequestPiggybackManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKGraphRequestPiggybackManager.h; sourceTree = "<group>"; };
+		BB18682221A5C8AB00D05942 /* FBSDKBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKBase64.h; sourceTree = "<group>"; };
+		BB18682321A5C8AB00D05942 /* FBSDKBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKBase64.m; sourceTree = "<group>"; };
+		BB18682421A5C8AB00D05942 /* FBSDKMeasurementEvent_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKMeasurementEvent_Internal.h; sourceTree = "<group>"; };
+		BB18682621A5C8AB00D05942 /* FBSDKAppEventsUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAppEventsUtility.m; sourceTree = "<group>"; };
+		BB18682721A5C8AB00D05942 /* FBSDKAppEventsDeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAppEventsDeviceInfo.h; sourceTree = "<group>"; };
+		BB18682821A5C8AB00D05942 /* FBSDKPaymentObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKPaymentObserver.h; sourceTree = "<group>"; };
+		BB18682921A5C8AB00D05942 /* FBSDKTimeSpentData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKTimeSpentData.m; sourceTree = "<group>"; };
+		BB18682A21A5C8AB00D05942 /* FBSDKAppEvents+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKAppEvents+Internal.h"; sourceTree = "<group>"; };
+		BB18682B21A5C8AB00D05942 /* FBSDKHybridAppEventsScriptMessageHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKHybridAppEventsScriptMessageHandler.m; sourceTree = "<group>"; };
+		BB18682C21A5C8AB00D05942 /* FBSDKUserDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKUserDataStore.h; sourceTree = "<group>"; };
+		BB18682D21A5C8AB00D05942 /* FBSDKAppEventsStateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAppEventsStateManager.m; sourceTree = "<group>"; };
+		BB18682F21A5C8AB00D05942 /* FBSDKCodelessParameterComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKCodelessParameterComponent.h; sourceTree = "<group>"; };
+		BB18683021A5C8AB00D05942 /* FBSDKViewHierarchy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKViewHierarchy.m; sourceTree = "<group>"; };
+		BB18683121A5C8AB00D05942 /* FBSDKCodelessIndexer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKCodelessIndexer.m; sourceTree = "<group>"; };
+		BB18683221A5C8AB00D05942 /* FBSDKEventBindingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKEventBindingManager.m; sourceTree = "<group>"; };
+		BB18683321A5C8AB00D05942 /* FBSDKCodelessMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKCodelessMacros.h; sourceTree = "<group>"; };
+		BB18683421A5C8AB00D05942 /* FBSDKEventBinding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKEventBinding.m; sourceTree = "<group>"; };
+		BB18683521A5C8AB00D05942 /* FBSDKCodelessPathComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKCodelessPathComponent.h; sourceTree = "<group>"; };
+		BB18683621A5C8AB00D05942 /* FBSDKCodelessParameterComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKCodelessParameterComponent.m; sourceTree = "<group>"; };
+		BB18683721A5C8AB00D05942 /* FBSDKEventBindingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKEventBindingManager.h; sourceTree = "<group>"; };
+		BB18683821A5C8AB00D05942 /* FBSDKCodelessIndexer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKCodelessIndexer.h; sourceTree = "<group>"; };
+		BB18683921A5C8AB00D05942 /* FBSDKViewHierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKViewHierarchy.h; sourceTree = "<group>"; };
+		BB18683A21A5C8AB00D05942 /* FBSDKEventBinding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKEventBinding.h; sourceTree = "<group>"; };
+		BB18683B21A5C8AB00D05942 /* FBSDKCodelessPathComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKCodelessPathComponent.m; sourceTree = "<group>"; };
+		BB18683C21A5C8AB00D05942 /* FBSDKAppEventsState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAppEventsState.h; sourceTree = "<group>"; };
+		BB18683D21A5C8AB00D05942 /* FBSDKAppEventsDeviceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAppEventsDeviceInfo.m; sourceTree = "<group>"; };
+		BB18683E21A5C8AB00D05942 /* FBSDKAppEventsUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAppEventsUtility.h; sourceTree = "<group>"; };
+		BB18683F21A5C8AB00D05942 /* FBSDKTimeSpentData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKTimeSpentData.h; sourceTree = "<group>"; };
+		BB18684021A5C8AB00D05942 /* FBSDKPaymentObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKPaymentObserver.m; sourceTree = "<group>"; };
+		BB18684121A5C8AB00D05942 /* FBSDKHybridAppEventsScriptMessageHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKHybridAppEventsScriptMessageHandler.h; sourceTree = "<group>"; };
+		BB18684221A5C8AB00D05942 /* FBSDKAppEventsState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAppEventsState.m; sourceTree = "<group>"; };
+		BB18684321A5C8AB00D05942 /* FBSDKAppEventsStateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAppEventsStateManager.h; sourceTree = "<group>"; };
+		BB18684421A5C8AB00D05942 /* FBSDKUserDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKUserDataStore.m; sourceTree = "<group>"; };
+		BB18684621A5C8AB00D05942 /* FBSDKWebDialogView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKWebDialogView.h; sourceTree = "<group>"; };
+		BB18684721A5C8AB00D05942 /* FBSDKWebDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKWebDialog.h; sourceTree = "<group>"; };
+		BB18684821A5C8AB00D05942 /* FBSDKWebDialog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKWebDialog.m; sourceTree = "<group>"; };
+		BB18684921A5C8AB00D05942 /* FBSDKWebDialogView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKWebDialogView.m; sourceTree = "<group>"; };
+		BB18684A21A5C8AB00D05942 /* FBSDKError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKError.h; sourceTree = "<group>"; };
+		BB18684B21A5C8AB00D05942 /* FBSDKAudioResourceLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAudioResourceLoader.m; sourceTree = "<group>"; };
+		BB18684C21A5C8AB00D05942 /* FBSDKMonotonicTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKMonotonicTime.h; sourceTree = "<group>"; };
+		BB18684D21A5C8AB00D05942 /* FBSDKAppLinkReturnToRefererView_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAppLinkReturnToRefererView_Internal.h; sourceTree = "<group>"; };
+		BB18684F21A5C8AB00D05942 /* FBSDKAccessTokenCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAccessTokenCache.h; sourceTree = "<group>"; };
+		BB18685021A5C8AB00D05942 /* FBSDKAccessTokenCacheV4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAccessTokenCacheV4.h; sourceTree = "<group>"; };
+		BB18685121A5C8AB00D05942 /* FBSDKAccessTokenCacheV3_17.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAccessTokenCacheV3_17.m; sourceTree = "<group>"; };
+		BB18685221A5C8AB00D05942 /* FBSDKKeychainStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKKeychainStore.m; sourceTree = "<group>"; };
+		BB18685321A5C8AB00D05942 /* FBSDKAccessTokenExpirer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAccessTokenExpirer.m; sourceTree = "<group>"; };
+		BB18685421A5C8AB00D05942 /* FBSDKKeychainStoreViaBundleID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKKeychainStoreViaBundleID.m; sourceTree = "<group>"; };
+		BB18685521A5C8AB00D05942 /* FBSDKAccessTokenCacheV3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAccessTokenCacheV3.h; sourceTree = "<group>"; };
+		BB18685621A5C8AB00D05942 /* FBSDKAccessTokenCacheV3_21.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAccessTokenCacheV3_21.m; sourceTree = "<group>"; };
+		BB18685721A5C8AB00D05942 /* FBSDKAccessTokenCacheV3_17.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAccessTokenCacheV3_17.h; sourceTree = "<group>"; };
+		BB18685821A5C8AB00D05942 /* FBSDKAccessTokenCacheV4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAccessTokenCacheV4.m; sourceTree = "<group>"; };
+		BB18685921A5C8AB00D05942 /* FBSDKAccessTokenCaching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAccessTokenCaching.h; sourceTree = "<group>"; };
+		BB18685A21A5C8AB00D05942 /* FBSDKAccessTokenCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAccessTokenCache.m; sourceTree = "<group>"; };
+		BB18685B21A5C8AB00D05942 /* FBSDKKeychainStoreViaBundleID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKKeychainStoreViaBundleID.h; sourceTree = "<group>"; };
+		BB18685C21A5C8AB00D05942 /* FBSDKAccessTokenExpirer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAccessTokenExpirer.h; sourceTree = "<group>"; };
+		BB18685D21A5C8AB00D05942 /* FBSDKKeychainStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKKeychainStore.h; sourceTree = "<group>"; };
+		BB18685E21A5C8AB00D05942 /* FBSDKAccessTokenCacheV3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAccessTokenCacheV3.m; sourceTree = "<group>"; };
+		BB18685F21A5C8AB00D05942 /* FBSDKAccessTokenCacheV3_21.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAccessTokenCacheV3_21.h; sourceTree = "<group>"; };
+		BB18686021A5C8AB00D05942 /* FBSDKSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKSwizzler.h; sourceTree = "<group>"; };
+		BB18686121A5C8AB00D05942 /* FBSDKLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLogger.h; sourceTree = "<group>"; };
+		BB18686221A5C8AB00D05942 /* FBSDKTypeUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKTypeUtility.m; sourceTree = "<group>"; };
+		BB18686321A5C8AB00D05942 /* FBSDKTriStateBOOL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKTriStateBOOL.m; sourceTree = "<group>"; };
+		BB18686421A5C8AB00D05942 /* FBSDKImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKImageDownloader.h; sourceTree = "<group>"; };
+		BB18686521A5C8AB00D05942 /* FBSDKSystemAccountStoreAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKSystemAccountStoreAdapter.m; sourceTree = "<group>"; };
+		BB18686621A5C8AB00D05942 /* FBSDKProfile+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKProfile+Internal.h"; sourceTree = "<group>"; };
+		BB18686721A5C8AB00D05942 /* FBSDKMath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKMath.m; sourceTree = "<group>"; };
+		BB18686921A5C8AB00D05942 /* FBSDKURLOpening.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKURLOpening.h; sourceTree = "<group>"; };
+		BB18686A21A5C8AB00D05942 /* FBSDKBridgeAPIRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKBridgeAPIRequest.h; sourceTree = "<group>"; };
+		BB18686B21A5C8AB00D05942 /* FBSDKBridgeAPIProtocolType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKBridgeAPIProtocolType.h; sourceTree = "<group>"; };
+		BB18686C21A5C8AB00D05942 /* FBSDKBridgeAPIProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKBridgeAPIProtocol.h; sourceTree = "<group>"; };
+		BB18686D21A5C8AB00D05942 /* FBSDKBridgeAPICrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKBridgeAPICrypto.h; sourceTree = "<group>"; };
+		BB18686E21A5C8AB00D05942 /* FBSDKBridgeAPIResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKBridgeAPIResponse.h; sourceTree = "<group>"; };
+		BB18686F21A5C8AB00D05942 /* FBSDKBridgeAPIRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKBridgeAPIRequest.m; sourceTree = "<group>"; };
+		BB18687021A5C8AB00D05942 /* FBSDKBridgeAPIRequest+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKBridgeAPIRequest+Private.h"; sourceTree = "<group>"; };
+		BB18687121A5C8AB00D05942 /* FBSDKBridgeAPIResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKBridgeAPIResponse.m; sourceTree = "<group>"; };
+		BB18687221A5C8AB00D05942 /* FBSDKBridgeAPICrypto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKBridgeAPICrypto.m; sourceTree = "<group>"; };
+		BB18687421A5C8AB00D05942 /* FBSDKBridgeAPIProtocolWebV1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKBridgeAPIProtocolWebV1.h; sourceTree = "<group>"; };
+		BB18687521A5C8AB00D05942 /* FBSDKBridgeAPIProtocolNativeV1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKBridgeAPIProtocolNativeV1.m; sourceTree = "<group>"; };
+		BB18687621A5C8AB00D05942 /* FBSDKBridgeAPIProtocolWebV2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKBridgeAPIProtocolWebV2.h; sourceTree = "<group>"; };
+		BB18687721A5C8AB00D05942 /* FBSDKBridgeAPIProtocolWebV1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKBridgeAPIProtocolWebV1.m; sourceTree = "<group>"; };
+		BB18687821A5C8AB00D05942 /* FBSDKBridgeAPIProtocolNativeV1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKBridgeAPIProtocolNativeV1.h; sourceTree = "<group>"; };
+		BB18687921A5C8AB00D05942 /* FBSDKBridgeAPIProtocolWebV2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKBridgeAPIProtocolWebV2.m; sourceTree = "<group>"; };
+		BB18687A21A5C8AB00D05942 /* FBSDKContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKContainerViewController.m; sourceTree = "<group>"; };
+		BB18687B21A5C8AB00D05942 /* FBSDKAppLink_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAppLink_Internal.h; sourceTree = "<group>"; };
+		BB18687C21A5C8AB00D05942 /* FBSDKInternalUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKInternalUtility.h; sourceTree = "<group>"; };
+		BB18687E21A5C8AB00D05942 /* FBSDKErrorRecoveryConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKErrorRecoveryConfiguration.m; sourceTree = "<group>"; };
+		BB18687F21A5C8AB00D05942 /* FBSDKServerConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKServerConfiguration.h; sourceTree = "<group>"; };
+		BB18688021A5C8AB00D05942 /* FBSDKErrorConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKErrorConfiguration.h; sourceTree = "<group>"; };
+		BB18688121A5C8AB00D05942 /* FBSDKServerConfigurationManager+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKServerConfigurationManager+Internal.h"; sourceTree = "<group>"; };
+		BB18688221A5C8AB00D05942 /* FBSDKServerConfigurationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKServerConfigurationManager.m; sourceTree = "<group>"; };
+		BB18688321A5C8AB00D05942 /* FBSDKGateKeeperManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKGateKeeperManager.h; sourceTree = "<group>"; };
+		BB18688421A5C8AB00D05942 /* FBSDKDialogConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKDialogConfiguration.h; sourceTree = "<group>"; };
+		BB18688521A5C8AB00D05942 /* FBSDKErrorRecoveryConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKErrorRecoveryConfiguration.h; sourceTree = "<group>"; };
+		BB18688621A5C8AB00D05942 /* FBSDKServerConfigurationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKServerConfigurationManager.h; sourceTree = "<group>"; };
+		BB18688721A5C8AB00D05942 /* FBSDKServerConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKServerConfiguration.m; sourceTree = "<group>"; };
+		BB18688821A5C8AB00D05942 /* FBSDKErrorConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKErrorConfiguration.m; sourceTree = "<group>"; };
+		BB18688921A5C8AB00D05942 /* FBSDKGateKeeperManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKGateKeeperManager.m; sourceTree = "<group>"; };
+		BB18688A21A5C8AB00D05942 /* FBSDKServerConfiguration+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKServerConfiguration+Internal.h"; sourceTree = "<group>"; };
+		BB18688B21A5C8AB00D05942 /* FBSDKDialogConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKDialogConfiguration.m; sourceTree = "<group>"; };
+		BB18688C21A5C8AB00D05942 /* FBSDKDeviceRequestsHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKDeviceRequestsHelper.h; sourceTree = "<group>"; };
+		BB18688E21A5C8AB00D05942 /* FBSDKBoltsMeasurementEventListener.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKBoltsMeasurementEventListener.m; sourceTree = "<group>"; };
+		BB18688F21A5C8AB00D05942 /* FBSDKBoltsMeasurementEventListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKBoltsMeasurementEventListener.h; sourceTree = "<group>"; };
+		BB18689021A5C8AB00D05942 /* FBSDKMonotonicTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKMonotonicTime.m; sourceTree = "<group>"; };
+		BB18689121A5C8AB00D05942 /* FBSDKAudioResourceLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAudioResourceLoader.h; sourceTree = "<group>"; };
+		BB18689221A5C8AB00D05942 /* FBSDKError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKError.m; sourceTree = "<group>"; };
+		BB18689321A5C8AB00D05942 /* FBSDKApplicationDelegate+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKApplicationDelegate+Internal.h"; sourceTree = "<group>"; };
+		BB18689521A5C8AB00D05942 /* FBSDKDynamicFrameworkLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKDynamicFrameworkLoader.m; sourceTree = "<group>"; };
+		BB18689621A5C8AB00D05942 /* FBSDKApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKApplicationDelegate.h; sourceTree = "<group>"; };
+		BB18689721A5C8AB00D05942 /* FBSDKButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKButton.m; sourceTree = "<group>"; };
+		BB18689821A5C8AB00D05942 /* FBSDKAppLink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAppLink.m; sourceTree = "<group>"; };
+		BB18689921A5C8AB00D05942 /* FBSDKCoreKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKCoreKit.h; sourceTree = "<group>"; };
+		BB18689A21A5C8AB00D05942 /* FBSDKGraphRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKGraphRequest.m; sourceTree = "<group>"; };
+		BB18689B21A5C8AB00D05942 /* FBSDKAppLinkResolving.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAppLinkResolving.h; sourceTree = "<group>"; };
+		BB18689C21A5C8AB00D05942 /* FBSDKWebViewAppLinkResolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKWebViewAppLinkResolver.m; sourceTree = "<group>"; };
+		BB18689D21A5C8AB00D05942 /* FBSDKGraphRequestDataAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKGraphRequestDataAttachment.h; sourceTree = "<group>"; };
+		BB18689E21A5C8AB00D05942 /* FBSDKAppLinkResolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAppLinkResolver.h; sourceTree = "<group>"; };
+		BB18689F21A5C8AB00D05942 /* FBSDKURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKURL.m; sourceTree = "<group>"; };
+		BB1868A021A5C8AB00D05942 /* FBSDKAccessToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAccessToken.m; sourceTree = "<group>"; };
+		BB1868A121A5C8AB00D05942 /* FBSDKAppLinkTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAppLinkTarget.m; sourceTree = "<group>"; };
+		BB1868A221A5C8AB00D05942 /* FBSDKAppEvents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAppEvents.m; sourceTree = "<group>"; };
+		BB1868A321A5C8AB00D05942 /* FBSDKGraphErrorRecoveryProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKGraphErrorRecoveryProcessor.h; sourceTree = "<group>"; };
+		BB1868A421A5C8AB00D05942 /* FBSDKMutableCopying.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKMutableCopying.h; sourceTree = "<group>"; };
+		BB1868A521A5C8AB00D05942 /* FBSDKTestUsersManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKTestUsersManager.m; sourceTree = "<group>"; };
+		BB1868A621A5C8AB00D05942 /* FBSDKAppLinkReturnToRefererView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAppLinkReturnToRefererView.m; sourceTree = "<group>"; };
+		BB1868A721A5C8AB00D05942 /* FBSDKProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKProfile.h; sourceTree = "<group>"; };
+		BB1868A821A5C8AB00D05942 /* FBSDKProfilePictureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKProfilePictureView.h; sourceTree = "<group>"; };
+		BB1868A921A5C8AB00D05942 /* FBSDKMeasurementEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKMeasurementEvent.m; sourceTree = "<group>"; };
+		BB1868AA21A5C8AB00D05942 /* FBSDKCopying.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKCopying.h; sourceTree = "<group>"; };
+		BB1868AB21A5C8AB00D05942 /* FBSDKGraphRequestConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKGraphRequestConnection.h; sourceTree = "<group>"; };
+		BB1868AC21A5C8AB00D05942 /* FBSDKAppLinkUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAppLinkUtility.m; sourceTree = "<group>"; };
+		BB1868AD21A5C8AB00D05942 /* FBSDKAppLinkReturnToRefererController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAppLinkReturnToRefererController.m; sourceTree = "<group>"; };
+		BB1868AE21A5C8AB00D05942 /* FBSDKSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKSettings.m; sourceTree = "<group>"; };
+		BB1868AF21A5C8AB00D05942 /* FBSDKConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKConstants.m; sourceTree = "<group>"; };
+		BB1868B021A5C8AB00D05942 /* FBSDKUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKUtility.m; sourceTree = "<group>"; };
+		BB1868B121A5C8AB00D05942 /* FBSDKAppLinkNavigation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKAppLinkNavigation.m; sourceTree = "<group>"; };
+		BB1868B221A5C8AB00D05942 /* FBSDKMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKMacros.h; sourceTree = "<group>"; };
+		BB1868B321A5C8AB00D05942 /* FBSDKGraphRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKGraphRequest.h; sourceTree = "<group>"; };
+		BB1868B421A5C8AB00D05942 /* FBSDKButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKButton.h; sourceTree = "<group>"; };
+		BB1868B521A5C8AB00D05942 /* FBSDKAppLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKAppLink.h; sourceTree = "<group>"; };
+		BB1868B621A5C8AB00D05942 /* FBSDKApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKApplicationDelegate.m; sourceTree = "<group>"; };
+		BB1868B721A5C8AC00D05942 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BB1868B821A5C8AC00D05942 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		BB1868B921A5C8AC00D05942 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB1868BB21A5C8AC00D05942 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BB1868BD21A5C8AC00D05942 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		BB1868BE21A5C8AC00D05942 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB1868BF21A5C8AC00D05942 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		BB1868C421A5C8AC00D05942 /* FBSDKCoreKit-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKCoreKit-umbrella.h"; sourceTree = "<group>"; };
+		BB1868C521A5C8AC00D05942 /* FBSDKCoreKit.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FBSDKCoreKit.xcconfig; sourceTree = "<group>"; };
+		BB1868C621A5C8AC00D05942 /* FBSDKCoreKit-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKCoreKit-prefix.pch"; sourceTree = "<group>"; };
+		BB1868C721A5C8AC00D05942 /* FBSDKCoreKit-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FBSDKCoreKit-dummy.m"; sourceTree = "<group>"; };
+		BB1868C821A5C8AC00D05942 /* FBSDKCoreKit.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = FBSDKCoreKit.modulemap; sourceTree = "<group>"; };
+		BB1868C921A5C8AC00D05942 /* FBSDKCoreKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBSDKCoreKit-Info.plist"; sourceTree = "<group>"; };
+		BB1868CB21A5C8AC00D05942 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		BB1868CC21A5C8AC00D05942 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		BB1868CD21A5C8AC00D05942 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		BB1868CE21A5C8AC00D05942 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		BB1868CF21A5C8AC00D05942 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		BB1868D021A5C8AC00D05942 /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		BB1868D221A5C8AC00D05942 /* Pods-StreetBasketBallSwift-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-StreetBasketBallSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB1868D321A5C8AC00D05942 /* Pods-StreetBasketBallSwift.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StreetBasketBallSwift.modulemap"; sourceTree = "<group>"; };
+		BB1868D421A5C8AC00D05942 /* Pods-StreetBasketBallSwift.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-StreetBasketBallSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		BB1868D521A5C8AC00D05942 /* Pods-StreetBasketBallSwift-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-StreetBasketBallSwift-Info.plist"; sourceTree = "<group>"; };
+		BB1868D621A5C8AC00D05942 /* Pods-StreetBasketBallSwift-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-StreetBasketBallSwift-umbrella.h"; sourceTree = "<group>"; };
+		BB1868D721A5C8AC00D05942 /* Pods-StreetBasketBallSwift-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-StreetBasketBallSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB1868D821A5C8AC00D05942 /* Pods-StreetBasketBallSwift-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-StreetBasketBallSwift-dummy.m"; sourceTree = "<group>"; };
+		BB1868D921A5C8AC00D05942 /* Pods-StreetBasketBallSwift-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-StreetBasketBallSwift-frameworks.sh"; sourceTree = "<group>"; };
+		BB1868DA21A5C8AC00D05942 /* Pods-StreetBasketBallSwift.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-StreetBasketBallSwift.release.xcconfig"; sourceTree = "<group>"; };
+		BB1868DC21A5C8AC00D05942 /* Bolts-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bolts-prefix.pch"; sourceTree = "<group>"; };
+		BB1868DD21A5C8AC00D05942 /* Bolts-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Bolts-dummy.m"; sourceTree = "<group>"; };
+		BB1868DE21A5C8AC00D05942 /* Bolts-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bolts-umbrella.h"; sourceTree = "<group>"; };
+		BB1868DF21A5C8AC00D05942 /* Bolts.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = Bolts.modulemap; sourceTree = "<group>"; };
+		BB1868E021A5C8AC00D05942 /* Bolts.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Bolts.xcconfig; sourceTree = "<group>"; };
+		BB1868E121A5C8AC00D05942 /* Bolts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bolts-Info.plist"; sourceTree = "<group>"; };
+		BB1868E321A5C8AC00D05942 /* FacebookCore-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacebookCore-prefix.pch"; sourceTree = "<group>"; };
+		BB1868E421A5C8AC00D05942 /* FacebookCore.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FacebookCore.xcconfig; sourceTree = "<group>"; };
+		BB1868E521A5C8AC00D05942 /* FacebookCore-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacebookCore-umbrella.h"; sourceTree = "<group>"; };
+		BB1868E621A5C8AC00D05942 /* FacebookCore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FacebookCore-Info.plist"; sourceTree = "<group>"; };
+		BB1868E721A5C8AC00D05942 /* FacebookCore.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = FacebookCore.modulemap; sourceTree = "<group>"; };
+		BB1868E821A5C8AC00D05942 /* FacebookCore-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FacebookCore-dummy.m"; sourceTree = "<group>"; };
+		BB1868EA21A5C8AC00D05942 /* FBSDKLoginKit-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FBSDKLoginKit-dummy.m"; sourceTree = "<group>"; };
+		BB1868EB21A5C8AC00D05942 /* FBSDKLoginKit.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = FBSDKLoginKit.modulemap; sourceTree = "<group>"; };
+		BB1868EC21A5C8AC00D05942 /* FBSDKLoginKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBSDKLoginKit-Info.plist"; sourceTree = "<group>"; };
+		BB1868ED21A5C8AC00D05942 /* FBSDKLoginKit-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKLoginKit-umbrella.h"; sourceTree = "<group>"; };
+		BB1868EE21A5C8AC00D05942 /* FBSDKLoginKit.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FBSDKLoginKit.xcconfig; sourceTree = "<group>"; };
+		BB1868EF21A5C8AC00D05942 /* FBSDKLoginKit-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKLoginKit-prefix.pch"; sourceTree = "<group>"; };
+		BB1868F121A5C8AC00D05942 /* FacebookLogin.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = FacebookLogin.modulemap; sourceTree = "<group>"; };
+		BB1868F221A5C8AC00D05942 /* FacebookLogin-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacebookLogin-prefix.pch"; sourceTree = "<group>"; };
+		BB1868F321A5C8AC00D05942 /* FacebookLogin-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacebookLogin-umbrella.h"; sourceTree = "<group>"; };
+		BB1868F421A5C8AC00D05942 /* FacebookLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FacebookLogin-Info.plist"; sourceTree = "<group>"; };
+		BB1868F521A5C8AC00D05942 /* FacebookLogin.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = FacebookLogin.xcconfig; sourceTree = "<group>"; };
+		BB1868F621A5C8AC00D05942 /* FacebookLogin-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FacebookLogin-dummy.m"; sourceTree = "<group>"; };
+		BB1868F721A5C8AC00D05942 /* Manifest.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		BB1868FA21A5C8AC00D05942 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BB1868FD21A5C8AC00D05942 /* BFAppLinkReturnToRefererView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAppLinkReturnToRefererView.h; sourceTree = "<group>"; };
+		BB1868FE21A5C8AC00D05942 /* BFAppLinkNavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAppLinkNavigation.h; sourceTree = "<group>"; };
+		BB1868FF21A5C8AC00D05942 /* BFAppLink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFAppLink.m; sourceTree = "<group>"; };
+		BB18690021A5C8AC00D05942 /* BFWebViewAppLinkResolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFWebViewAppLinkResolver.m; sourceTree = "<group>"; };
+		BB18690121A5C8AC00D05942 /* BFAppLinkReturnToRefererController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAppLinkReturnToRefererController.h; sourceTree = "<group>"; };
+		BB18690321A5C8AC00D05942 /* BFMeasurementEvent_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFMeasurementEvent_Internal.h; sourceTree = "<group>"; };
+		BB18690421A5C8AC00D05942 /* BFAppLink_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAppLink_Internal.h; sourceTree = "<group>"; };
+		BB18690521A5C8AC00D05942 /* BFAppLinkReturnToRefererView_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAppLinkReturnToRefererView_Internal.h; sourceTree = "<group>"; };
+		BB18690621A5C8AC00D05942 /* BFURL_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFURL_Internal.h; sourceTree = "<group>"; };
+		BB18690721A5C8AC00D05942 /* BFURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFURL.m; sourceTree = "<group>"; };
+		BB18690821A5C8AC00D05942 /* BFMeasurementEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFMeasurementEvent.m; sourceTree = "<group>"; };
+		BB18690921A5C8AC00D05942 /* BFAppLinkTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAppLinkTarget.h; sourceTree = "<group>"; };
+		BB18690A21A5C8AC00D05942 /* BFAppLinkNavigation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFAppLinkNavigation.m; sourceTree = "<group>"; };
+		BB18690B21A5C8AC00D05942 /* BFAppLinkReturnToRefererView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFAppLinkReturnToRefererView.m; sourceTree = "<group>"; };
+		BB18690C21A5C8AC00D05942 /* BFWebViewAppLinkResolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFWebViewAppLinkResolver.h; sourceTree = "<group>"; };
+		BB18690D21A5C8AC00D05942 /* BFAppLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAppLink.h; sourceTree = "<group>"; };
+		BB18690E21A5C8AC00D05942 /* BFAppLinkReturnToRefererController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFAppLinkReturnToRefererController.m; sourceTree = "<group>"; };
+		BB18690F21A5C8AC00D05942 /* BFAppLinkResolving.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAppLinkResolving.h; sourceTree = "<group>"; };
+		BB18691021A5C8AC00D05942 /* BFAppLinkTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFAppLinkTarget.m; sourceTree = "<group>"; };
+		BB18691121A5C8AC00D05942 /* BFMeasurementEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFMeasurementEvent.h; sourceTree = "<group>"; };
+		BB18691221A5C8AC00D05942 /* BFURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFURL.h; sourceTree = "<group>"; };
+		BB18691421A5C8AC00D05942 /* BFCancellationTokenSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFCancellationTokenSource.h; sourceTree = "<group>"; };
+		BB18691521A5C8AC00D05942 /* BFExecutor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFExecutor.m; sourceTree = "<group>"; };
+		BB18691621A5C8AC00D05942 /* Bolts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bolts.h; sourceTree = "<group>"; };
+		BB18691721A5C8AC00D05942 /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFTaskCompletionSource.m; sourceTree = "<group>"; };
+		BB18691821A5C8AC00D05942 /* BFTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFTask.m; sourceTree = "<group>"; };
+		BB18691921A5C8AC00D05942 /* BFCancellationTokenRegistration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFCancellationTokenRegistration.h; sourceTree = "<group>"; };
+		BB18691A21A5C8AC00D05942 /* BFCancellationToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFCancellationToken.h; sourceTree = "<group>"; };
+		BB18691B21A5C8AC00D05942 /* Bolts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bolts.m; sourceTree = "<group>"; };
+		BB18691C21A5C8AC00D05942 /* BFExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFExecutor.h; sourceTree = "<group>"; };
+		BB18691D21A5C8AC00D05942 /* BFCancellationTokenSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFCancellationTokenSource.m; sourceTree = "<group>"; };
+		BB18691E21A5C8AC00D05942 /* BFCancellationTokenRegistration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		BB18691F21A5C8AC00D05942 /* BFTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFTask.h; sourceTree = "<group>"; };
+		BB18692021A5C8AC00D05942 /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFTaskCompletionSource.h; sourceTree = "<group>"; };
+		BB18692121A5C8AC00D05942 /* BFCancellationToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFCancellationToken.m; sourceTree = "<group>"; };
+		BB18692221A5C8AC00D05942 /* BFGeneric.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFGeneric.h; sourceTree = "<group>"; };
+		BB18692321A5C8AC00D05942 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB18692521A5C8AC00D05942 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BB18692621A5C8AC00D05942 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB18692A21A5C8AC00D05942 /* GraphRequestConnectionDelegateBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRequestConnectionDelegateBridge.swift; sourceTree = "<group>"; };
+		BB18692B21A5C8AC00D05942 /* GraphRequestConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRequestConnection.swift; sourceTree = "<group>"; };
+		BB18692C21A5C8AC00D05942 /* GraphRequestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRequestResult.swift; sourceTree = "<group>"; };
+		BB18692D21A5C8AC00D05942 /* GraphAPIVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphAPIVersion.swift; sourceTree = "<group>"; };
+		BB18692E21A5C8AC00D05942 /* GraphRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRequestProtocol.swift; sourceTree = "<group>"; };
+		BB18692F21A5C8AC00D05942 /* GraphResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphResponse.swift; sourceTree = "<group>"; };
+		BB18693021A5C8AC00D05942 /* GraphRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRequest.swift; sourceTree = "<group>"; };
+		BB18693121A5C8AC00D05942 /* GraphRequestProtocol.Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRequestProtocol.Bridge.swift; sourceTree = "<group>"; };
+		BB18693221A5C8AC00D05942 /* GraphResponseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphResponseProtocol.swift; sourceTree = "<group>"; };
+		BB18693321A5C8AC00D05942 /* GraphRequestDataAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRequestDataAttachment.swift; sourceTree = "<group>"; };
+		BB18693621A5C8AC00D05942 /* Dictionary+KeyValueMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+KeyValueMap.swift"; sourceTree = "<group>"; };
+		BB18693721A5C8AC00D05942 /* Optional+OnSome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+OnSome.swift"; sourceTree = "<group>"; };
+		BB18693921A5C8AC00D05942 /* AppEventsLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEventsLogger.swift; sourceTree = "<group>"; };
+		BB18693A21A5C8AC00D05942 /* AppEventParameterName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEventParameterName.swift; sourceTree = "<group>"; };
+		BB18693B21A5C8AC00D05942 /* AppEventName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEventName.swift; sourceTree = "<group>"; };
+		BB18693C21A5C8AC00D05942 /* AppEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEvent.swift; sourceTree = "<group>"; };
+		BB18693D21A5C8AC00D05942 /* AppEvent.Builtin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEvent.Builtin.swift; sourceTree = "<group>"; };
+		BB18693E21A5C8AC00D05942 /* AppEventsLogger.FlushBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEventsLogger.FlushBehavior.swift; sourceTree = "<group>"; };
+		BB18694021A5C8AC00D05942 /* Permission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permission.swift; sourceTree = "<group>"; };
+		BB18694121A5C8AC00D05942 /* PublishPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPermission.swift; sourceTree = "<group>"; };
+		BB18694221A5C8AC00D05942 /* ReadPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadPermission.swift; sourceTree = "<group>"; };
+		BB18694421A5C8AC00D05942 /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
+		BB18694521A5C8AC00D05942 /* SDKLoggingBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKLoggingBehavior.swift; sourceTree = "<group>"; };
+		BB18694621A5C8AC00D05942 /* SDKApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKApplicationDelegate.swift; sourceTree = "<group>"; };
+		BB18694721A5C8AC00D05942 /* SDKSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKSettings.swift; sourceTree = "<group>"; };
+		BB18694921A5C8AC00D05942 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		BB18694A21A5C8AC00D05942 /* UserProfile.PictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.PictureView.swift; sourceTree = "<group>"; };
+		BB18694B21A5C8AC00D05942 /* UserProfile.FetchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.FetchResult.swift; sourceTree = "<group>"; };
+		BB18694D21A5C8AC00D05942 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BB18694E21A5C8AC00D05942 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB18695121A5C8AC00D05942 /* FBSDKDeviceLoginManagerResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKDeviceLoginManagerResult.h; sourceTree = "<group>"; };
+		BB18695221A5C8AC00D05942 /* FBSDKLoginButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLoginButton.h; sourceTree = "<group>"; };
+		BB18695321A5C8AC00D05942 /* FBSDKLoginConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLoginConstants.h; sourceTree = "<group>"; };
+		BB18695421A5C8AC00D05942 /* FBSDKDeviceLoginCodeInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKDeviceLoginCodeInfo.m; sourceTree = "<group>"; };
+		BB18695521A5C8AC00D05942 /* FBSDKDeviceLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKDeviceLoginManager.h; sourceTree = "<group>"; };
+		BB18695621A5C8AC00D05942 /* FBSDKLoginManagerLoginResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKLoginManagerLoginResult.m; sourceTree = "<group>"; };
+		BB18695821A5C8AC00D05942 /* FBSDKLoginCompletion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLoginCompletion.h; sourceTree = "<group>"; };
+		BB18695921A5C8AC00D05942 /* FBSDKDeviceLoginManagerResult+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKDeviceLoginManagerResult+Internal.h"; sourceTree = "<group>"; };
+		BB18695A21A5C8AC00D05942 /* FBSDKLoginManagerLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLoginManagerLogger.h; sourceTree = "<group>"; };
+		BB18695B21A5C8AC00D05942 /* _FBSDKLoginRecoveryAttempter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _FBSDKLoginRecoveryAttempter.m; sourceTree = "<group>"; };
+		BB18695C21A5C8AC00D05942 /* FBSDKLoginUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKLoginUtility.m; sourceTree = "<group>"; };
+		BB18695D21A5C8AC00D05942 /* FBSDKLoginError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLoginError.h; sourceTree = "<group>"; };
+		BB18695E21A5C8AC00D05942 /* FBSDKDeviceLoginCodeInfo+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKDeviceLoginCodeInfo+Internal.h"; sourceTree = "<group>"; };
+		BB18695F21A5C8AC00D05942 /* FBSDKLoginKit+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKLoginKit+Internal.h"; sourceTree = "<group>"; };
+		BB18696021A5C8AC00D05942 /* FBSDKLoginCompletion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKLoginCompletion.m; sourceTree = "<group>"; };
+		BB18696121A5C8AC00D05942 /* FBSDKLoginManagerLoginResult+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKLoginManagerLoginResult+Internal.h"; sourceTree = "<group>"; };
+		BB18696221A5C8AC00D05942 /* FBSDKLoginManagerLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKLoginManagerLogger.m; sourceTree = "<group>"; };
+		BB18696321A5C8AC00D05942 /* FBSDKLoginCompletion+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKLoginCompletion+Internal.h"; sourceTree = "<group>"; };
+		BB18696421A5C8AC00D05942 /* FBSDKLoginManager+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSDKLoginManager+Internal.h"; sourceTree = "<group>"; };
+		BB18696521A5C8AC00D05942 /* _FBSDKLoginRecoveryAttempter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _FBSDKLoginRecoveryAttempter.h; sourceTree = "<group>"; };
+		BB18696621A5C8AC00D05942 /* FBSDKLoginError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKLoginError.m; sourceTree = "<group>"; };
+		BB18696721A5C8AC00D05942 /* FBSDKLoginUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLoginUtility.h; sourceTree = "<group>"; };
+		BB18696821A5C8AC00D05942 /* FBSDKTooltipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKTooltipView.h; sourceTree = "<group>"; };
+		BB18696921A5C8AC00D05942 /* FBSDKLoginTooltipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKLoginTooltipView.m; sourceTree = "<group>"; };
+		BB18696A21A5C8AC00D05942 /* FBSDKLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLoginManager.h; sourceTree = "<group>"; };
+		BB18696B21A5C8AC00D05942 /* FBSDKLoginButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKLoginButton.m; sourceTree = "<group>"; };
+		BB18696C21A5C8AC00D05942 /* FBSDKDeviceLoginManagerResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKDeviceLoginManagerResult.m; sourceTree = "<group>"; };
+		BB18696D21A5C8AC00D05942 /* FBSDKLoginKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLoginKit.h; sourceTree = "<group>"; };
+		BB18696E21A5C8AC00D05942 /* FBSDKLoginConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKLoginConstants.m; sourceTree = "<group>"; };
+		BB18696F21A5C8AC00D05942 /* FBSDKDeviceLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKDeviceLoginManager.m; sourceTree = "<group>"; };
+		BB18697021A5C8AC00D05942 /* FBSDKDeviceLoginCodeInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKDeviceLoginCodeInfo.h; sourceTree = "<group>"; };
+		BB18697121A5C8AC00D05942 /* FBSDKLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKLoginManager.m; sourceTree = "<group>"; };
+		BB18697221A5C8AC00D05942 /* FBSDKLoginTooltipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLoginTooltipView.h; sourceTree = "<group>"; };
+		BB18697321A5C8AC00D05942 /* FBSDKTooltipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBSDKTooltipView.m; sourceTree = "<group>"; };
+		BB18697421A5C8AC00D05942 /* FBSDKLoginManagerLoginResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBSDKLoginManagerLoginResult.h; sourceTree = "<group>"; };
+		BB18697721A5C8AC00D05942 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BB18697821A5C8AC00D05942 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB18697B21A5C8AC00D05942 /* LoginButton.Tooltip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.Tooltip.swift; sourceTree = "<group>"; };
+		BB18697C21A5C8AC00D05942 /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
+		BB18697D21A5C8AC00D05942 /* LoginButtonDelegateBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonDelegateBridge.swift; sourceTree = "<group>"; };
+		BB18697E21A5C8AC00D05942 /* LoginDefaultAudience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDefaultAudience.swift; sourceTree = "<group>"; };
+		BB18697F21A5C8AC00D05942 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		BB18698021A5C8AC00D05942 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		BB18698121A5C8AC00D05942 /* LoginBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBehavior.swift; sourceTree = "<group>"; };
+		BB18698221A5C8AC00D05942 /* LoginButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonDelegate.swift; sourceTree = "<group>"; };
+		BB222E9D21B2FA670042B645 /* PlaygroundTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundTableViewCell.swift; sourceTree = "<group>"; };
+		BB24393921A21132001C59DC /* trackme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackme.png; sourceTree = "<group>"; };
+		BB24393B21A223B1001C59DC /* playgroundImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playgroundImage.jpg; sourceTree = "<group>"; };
+		BB24393D21A2244F001C59DC /* PlaygroundsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundsTableViewController.swift; sourceTree = "<group>"; };
+		BB547D0421C40E500052D86F /* basket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = basket.jpg; sourceTree = "<group>"; };
+		BB547D0D21C40EF10052D86F /* court_panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = court_panel.jpg; sourceTree = "<group>"; };
+		BB548B46219BF9630035B8B6 /* Playgrounds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Playgrounds.json; sourceTree = "<group>"; };
 		BB5C268E2195D74C0028837E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		BB85C5E421A3D0A600E02B0A /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		BB8EBCD021DF0B250095F25A /* PlaygroundDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundDetailViewController.swift; sourceTree = "<group>"; };
 		BB95265F219733BC00BD36BE /* Playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground.swift; sourceTree = "<group>"; };
 		BBB011462195D60200FDD1BA /* FBSDKLoginKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FBSDKLoginKit; path = Pods/FBSDKLoginKit; sourceTree = "<group>"; };
 		BBB39D722195D21E0029DDA3 /* StreetBasketBallSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetBasketBallSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +513,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB18699821A5C8C100D05942 /* SwiftyJSON.framework in Frameworks */,
 				C3DF8966C1EE7D45647687CD /* Pods_StreetBasketBallSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +542,826 @@
 				6D3B3371F16D595CAAD61AB5 /* Pods-StreetBasketBallSwift.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB1867D821A5C8AB00D05942 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB1867D921A5C8AB00D05942 /* FBSDKCoreKit */,
+				BB1868BA21A5C8AC00D05942 /* SwiftyJSON */,
+				BB1868BF21A5C8AC00D05942 /* Pods.xcodeproj */,
+				BB1868C221A5C8AC00D05942 /* Target Support Files */,
+				BB1868F721A5C8AC00D05942 /* Manifest.lock */,
+				BB1868F821A5C8AC00D05942 /* Local Podspecs */,
+				BB1868F921A5C8AC00D05942 /* Bolts */,
+				BB18692421A5C8AC00D05942 /* FacebookCore */,
+				BB18694C21A5C8AC00D05942 /* FBSDKLoginKit */,
+				BB18697521A5C8AC00D05942 /* Headers */,
+				BB18697621A5C8AC00D05942 /* FacebookLogin */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB1867D921A5C8AB00D05942 /* FBSDKCoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB1867DA21A5C8AB00D05942 /* FBSDKCoreKit */,
+				BB1868B721A5C8AC00D05942 /* LICENSE */,
+				BB1868B821A5C8AC00D05942 /* FacebookSDKStrings.bundle */,
+				BB1868B921A5C8AC00D05942 /* README.md */,
+			);
+			path = FBSDKCoreKit;
+			sourceTree = "<group>";
+		};
+		BB1867DA21A5C8AB00D05942 /* FBSDKCoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB1867DB21A5C8AB00D05942 /* FBSDKCoreKit */,
+			);
+			path = FBSDKCoreKit;
+			sourceTree = "<group>";
+		};
+		BB1867DB21A5C8AB00D05942 /* FBSDKCoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB1867DC21A5C8AB00D05942 /* FBSDKGraphRequestDataAttachment.m */,
+				BB1867DD21A5C8AB00D05942 /* FBSDKWebViewAppLinkResolver.h */,
+				BB1867DE21A5C8AB00D05942 /* FBSDKProfilePictureView.m */,
+				BB1867DF21A5C8AB00D05942 /* FBSDKProfile.m */,
+				BB1867E021A5C8AB00D05942 /* FBSDKTestUsersManager.h */,
+				BB1867E121A5C8AB00D05942 /* FBSDKAppLinkReturnToRefererView.h */,
+				BB1867E221A5C8AB00D05942 /* FBSDKAppEvents.h */,
+				BB1867E321A5C8AB00D05942 /* FBSDKGraphErrorRecoveryProcessor.m */,
+				BB1867E421A5C8AB00D05942 /* FBSDKAccessToken.h */,
+				BB1867E521A5C8AB00D05942 /* FBSDKURL.h */,
+				BB1867E621A5C8AB00D05942 /* FBSDKAppLinkTarget.h */,
+				BB1867E721A5C8AB00D05942 /* FBSDKAppLinkResolver.m */,
+				BB1867E821A5C8AB00D05942 /* FBSDKAppLinkNavigation.h */,
+				BB1867E921A5C8AB00D05942 /* FBSDKUtility.h */,
+				BB1867EA21A5C8AB00D05942 /* FBSDKConstants.h */,
+				BB1867EB21A5C8AB00D05942 /* FBSDKSettings.h */,
+				BB1867EC21A5C8AB00D05942 /* FBSDKAppLinkReturnToRefererController.h */,
+				BB1867ED21A5C8AB00D05942 /* FBSDKGraphRequestConnection.m */,
+				BB1867EE21A5C8AB00D05942 /* FBSDKAppLinkUtility.h */,
+				BB1867EF21A5C8AB00D05942 /* FBSDKMeasurementEvent.h */,
+				BB1867F021A5C8AB00D05942 /* Internal */,
+				BB18689421A5C8AB00D05942 /* Internal_NoARC */,
+				BB18689621A5C8AB00D05942 /* FBSDKApplicationDelegate.h */,
+				BB18689721A5C8AB00D05942 /* FBSDKButton.m */,
+				BB18689821A5C8AB00D05942 /* FBSDKAppLink.m */,
+				BB18689921A5C8AB00D05942 /* FBSDKCoreKit.h */,
+				BB18689A21A5C8AB00D05942 /* FBSDKGraphRequest.m */,
+				BB18689B21A5C8AB00D05942 /* FBSDKAppLinkResolving.h */,
+				BB18689C21A5C8AB00D05942 /* FBSDKWebViewAppLinkResolver.m */,
+				BB18689D21A5C8AB00D05942 /* FBSDKGraphRequestDataAttachment.h */,
+				BB18689E21A5C8AB00D05942 /* FBSDKAppLinkResolver.h */,
+				BB18689F21A5C8AB00D05942 /* FBSDKURL.m */,
+				BB1868A021A5C8AB00D05942 /* FBSDKAccessToken.m */,
+				BB1868A121A5C8AB00D05942 /* FBSDKAppLinkTarget.m */,
+				BB1868A221A5C8AB00D05942 /* FBSDKAppEvents.m */,
+				BB1868A321A5C8AB00D05942 /* FBSDKGraphErrorRecoveryProcessor.h */,
+				BB1868A421A5C8AB00D05942 /* FBSDKMutableCopying.h */,
+				BB1868A521A5C8AB00D05942 /* FBSDKTestUsersManager.m */,
+				BB1868A621A5C8AB00D05942 /* FBSDKAppLinkReturnToRefererView.m */,
+				BB1868A721A5C8AB00D05942 /* FBSDKProfile.h */,
+				BB1868A821A5C8AB00D05942 /* FBSDKProfilePictureView.h */,
+				BB1868A921A5C8AB00D05942 /* FBSDKMeasurementEvent.m */,
+				BB1868AA21A5C8AB00D05942 /* FBSDKCopying.h */,
+				BB1868AB21A5C8AB00D05942 /* FBSDKGraphRequestConnection.h */,
+				BB1868AC21A5C8AB00D05942 /* FBSDKAppLinkUtility.m */,
+				BB1868AD21A5C8AB00D05942 /* FBSDKAppLinkReturnToRefererController.m */,
+				BB1868AE21A5C8AB00D05942 /* FBSDKSettings.m */,
+				BB1868AF21A5C8AB00D05942 /* FBSDKConstants.m */,
+				BB1868B021A5C8AB00D05942 /* FBSDKUtility.m */,
+				BB1868B121A5C8AB00D05942 /* FBSDKAppLinkNavigation.m */,
+				BB1868B221A5C8AB00D05942 /* FBSDKMacros.h */,
+				BB1868B321A5C8AB00D05942 /* FBSDKGraphRequest.h */,
+				BB1868B421A5C8AB00D05942 /* FBSDKButton.h */,
+				BB1868B521A5C8AB00D05942 /* FBSDKAppLink.h */,
+				BB1868B621A5C8AB00D05942 /* FBSDKApplicationDelegate.m */,
+			);
+			path = FBSDKCoreKit;
+			sourceTree = "<group>";
+		};
+		BB1867F021A5C8AB00D05942 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				BB1867F121A5C8AB00D05942 /* FBSDKSystemAccountStoreAdapter.h */,
+				BB1867F221A5C8AB00D05942 /* FBSDKImageDownloader.m */,
+				BB1867F321A5C8AB00D05942 /* UI */,
+				BB18680221A5C8AB00D05942 /* FBSDKTriStateBOOL.h */,
+				BB18680321A5C8AB00D05942 /* FBSDKTypeUtility.h */,
+				BB18680421A5C8AB00D05942 /* FBSDKCoreKit+Internal.h */,
+				BB18680521A5C8AB00D05942 /* FBSDKLogger.m */,
+				BB18680621A5C8AB00D05942 /* FBSDKSwizzler.m */,
+				BB18680721A5C8AB00D05942 /* FBSDKDynamicFrameworkLoader.h */,
+				BB18680821A5C8AB00D05942 /* FBSDKSettings+Internal.h */,
+				BB18680921A5C8AB00D05942 /* ErrorRecovery */,
+				BB18680E21A5C8AB00D05942 /* FBSDKMath.h */,
+				BB18680F21A5C8AB00D05942 /* Cryptography */,
+				BB18681221A5C8AB00D05942 /* FBSDKDeviceRequestsHelper.m */,
+				BB18681321A5C8AB00D05942 /* FBSDKURL_Internal.h */,
+				BB18681421A5C8AB00D05942 /* FBSDKInternalUtility.m */,
+				BB18681521A5C8AB00D05942 /* FBSDKContainerViewController.h */,
+				BB18681621A5C8AB00D05942 /* Network */,
+				BB18682121A5C8AB00D05942 /* Base64 */,
+				BB18682421A5C8AB00D05942 /* FBSDKMeasurementEvent_Internal.h */,
+				BB18682521A5C8AB00D05942 /* AppEvents */,
+				BB18684521A5C8AB00D05942 /* WebDialog */,
+				BB18684A21A5C8AB00D05942 /* FBSDKError.h */,
+				BB18684B21A5C8AB00D05942 /* FBSDKAudioResourceLoader.m */,
+				BB18684C21A5C8AB00D05942 /* FBSDKMonotonicTime.h */,
+				BB18684D21A5C8AB00D05942 /* FBSDKAppLinkReturnToRefererView_Internal.h */,
+				BB18684E21A5C8AB00D05942 /* TokenCaching */,
+				BB18686021A5C8AB00D05942 /* FBSDKSwizzler.h */,
+				BB18686121A5C8AB00D05942 /* FBSDKLogger.h */,
+				BB18686221A5C8AB00D05942 /* FBSDKTypeUtility.m */,
+				BB18686321A5C8AB00D05942 /* FBSDKTriStateBOOL.m */,
+				BB18686421A5C8AB00D05942 /* FBSDKImageDownloader.h */,
+				BB18686521A5C8AB00D05942 /* FBSDKSystemAccountStoreAdapter.m */,
+				BB18686621A5C8AB00D05942 /* FBSDKProfile+Internal.h */,
+				BB18686721A5C8AB00D05942 /* FBSDKMath.m */,
+				BB18686821A5C8AB00D05942 /* BridgeAPI */,
+				BB18687A21A5C8AB00D05942 /* FBSDKContainerViewController.m */,
+				BB18687B21A5C8AB00D05942 /* FBSDKAppLink_Internal.h */,
+				BB18687C21A5C8AB00D05942 /* FBSDKInternalUtility.h */,
+				BB18687D21A5C8AB00D05942 /* ServerConfiguration */,
+				BB18688C21A5C8AB00D05942 /* FBSDKDeviceRequestsHelper.h */,
+				BB18688D21A5C8AB00D05942 /* AppLink */,
+				BB18689021A5C8AB00D05942 /* FBSDKMonotonicTime.m */,
+				BB18689121A5C8AB00D05942 /* FBSDKAudioResourceLoader.h */,
+				BB18689221A5C8AB00D05942 /* FBSDKError.m */,
+				BB18689321A5C8AB00D05942 /* FBSDKApplicationDelegate+Internal.h */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		BB1867F321A5C8AB00D05942 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BB1867F421A5C8AB00D05942 /* FBSDKColor.h */,
+				BB1867F521A5C8AB00D05942 /* FBSDKViewImpressionTracker.m */,
+				BB1867F621A5C8AB00D05942 /* FBSDKIcon.m */,
+				BB1867F721A5C8AB00D05942 /* FBSDKLogo.m */,
+				BB1867F821A5C8AB00D05942 /* FBSDKMaleSilhouetteIcon.h */,
+				BB1867F921A5C8AB00D05942 /* FBSDKCloseIcon.h */,
+				BB1867FA21A5C8AB00D05942 /* FBSDKUIUtility.h */,
+				BB1867FB21A5C8AB00D05942 /* FBSDKColor.m */,
+				BB1867FC21A5C8AB00D05942 /* FBSDKViewImpressionTracker.h */,
+				BB1867FD21A5C8AB00D05942 /* FBSDKMaleSilhouetteIcon.m */,
+				BB1867FE21A5C8AB00D05942 /* FBSDKLogo.h */,
+				BB1867FF21A5C8AB00D05942 /* FBSDKIcon.h */,
+				BB18680021A5C8AB00D05942 /* FBSDKCloseIcon.m */,
+				BB18680121A5C8AB00D05942 /* FBSDKButton+Subclass.h */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BB18680921A5C8AB00D05942 /* ErrorRecovery */ = {
+			isa = PBXGroup;
+			children = (
+				BB18680A21A5C8AB00D05942 /* _FBSDKTemporaryErrorRecoveryAttempter.h */,
+				BB18680B21A5C8AB00D05942 /* FBSDKErrorRecoveryAttempter.h */,
+				BB18680C21A5C8AB00D05942 /* _FBSDKTemporaryErrorRecoveryAttempter.m */,
+				BB18680D21A5C8AB00D05942 /* FBSDKErrorRecoveryAttempter.m */,
+			);
+			path = ErrorRecovery;
+			sourceTree = "<group>";
+		};
+		BB18680F21A5C8AB00D05942 /* Cryptography */ = {
+			isa = PBXGroup;
+			children = (
+				BB18681021A5C8AB00D05942 /* FBSDKCrypto.h */,
+				BB18681121A5C8AB00D05942 /* FBSDKCrypto.m */,
+			);
+			path = Cryptography;
+			sourceTree = "<group>";
+		};
+		BB18681621A5C8AB00D05942 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BB18681721A5C8AB00D05942 /* FBSDKGraphRequestMetadata.m */,
+				BB18681821A5C8AB00D05942 /* FBSDKGraphRequestBody.m */,
+				BB18681921A5C8AB00D05942 /* FBSDKGraphRequest+Internal.h */,
+				BB18681A21A5C8AB00D05942 /* FBSDKURLSessionTask.h */,
+				BB18681B21A5C8AB00D05942 /* FBSDKGraphRequestPiggybackManager.m */,
+				BB18681C21A5C8AB00D05942 /* FBSDKGraphRequestMetadata.h */,
+				BB18681D21A5C8AB00D05942 /* FBSDKURLSessionTask.m */,
+				BB18681E21A5C8AB00D05942 /* FBSDKGraphRequestBody.h */,
+				BB18681F21A5C8AB00D05942 /* FBSDKGraphRequestConnection+Internal.h */,
+				BB18682021A5C8AB00D05942 /* FBSDKGraphRequestPiggybackManager.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BB18682121A5C8AB00D05942 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				BB18682221A5C8AB00D05942 /* FBSDKBase64.h */,
+				BB18682321A5C8AB00D05942 /* FBSDKBase64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		BB18682521A5C8AB00D05942 /* AppEvents */ = {
+			isa = PBXGroup;
+			children = (
+				BB18682621A5C8AB00D05942 /* FBSDKAppEventsUtility.m */,
+				BB18682721A5C8AB00D05942 /* FBSDKAppEventsDeviceInfo.h */,
+				BB18682821A5C8AB00D05942 /* FBSDKPaymentObserver.h */,
+				BB18682921A5C8AB00D05942 /* FBSDKTimeSpentData.m */,
+				BB18682A21A5C8AB00D05942 /* FBSDKAppEvents+Internal.h */,
+				BB18682B21A5C8AB00D05942 /* FBSDKHybridAppEventsScriptMessageHandler.m */,
+				BB18682C21A5C8AB00D05942 /* FBSDKUserDataStore.h */,
+				BB18682D21A5C8AB00D05942 /* FBSDKAppEventsStateManager.m */,
+				BB18682E21A5C8AB00D05942 /* Codeless */,
+				BB18683C21A5C8AB00D05942 /* FBSDKAppEventsState.h */,
+				BB18683D21A5C8AB00D05942 /* FBSDKAppEventsDeviceInfo.m */,
+				BB18683E21A5C8AB00D05942 /* FBSDKAppEventsUtility.h */,
+				BB18683F21A5C8AB00D05942 /* FBSDKTimeSpentData.h */,
+				BB18684021A5C8AB00D05942 /* FBSDKPaymentObserver.m */,
+				BB18684121A5C8AB00D05942 /* FBSDKHybridAppEventsScriptMessageHandler.h */,
+				BB18684221A5C8AB00D05942 /* FBSDKAppEventsState.m */,
+				BB18684321A5C8AB00D05942 /* FBSDKAppEventsStateManager.h */,
+				BB18684421A5C8AB00D05942 /* FBSDKUserDataStore.m */,
+			);
+			path = AppEvents;
+			sourceTree = "<group>";
+		};
+		BB18682E21A5C8AB00D05942 /* Codeless */ = {
+			isa = PBXGroup;
+			children = (
+				BB18682F21A5C8AB00D05942 /* FBSDKCodelessParameterComponent.h */,
+				BB18683021A5C8AB00D05942 /* FBSDKViewHierarchy.m */,
+				BB18683121A5C8AB00D05942 /* FBSDKCodelessIndexer.m */,
+				BB18683221A5C8AB00D05942 /* FBSDKEventBindingManager.m */,
+				BB18683321A5C8AB00D05942 /* FBSDKCodelessMacros.h */,
+				BB18683421A5C8AB00D05942 /* FBSDKEventBinding.m */,
+				BB18683521A5C8AB00D05942 /* FBSDKCodelessPathComponent.h */,
+				BB18683621A5C8AB00D05942 /* FBSDKCodelessParameterComponent.m */,
+				BB18683721A5C8AB00D05942 /* FBSDKEventBindingManager.h */,
+				BB18683821A5C8AB00D05942 /* FBSDKCodelessIndexer.h */,
+				BB18683921A5C8AB00D05942 /* FBSDKViewHierarchy.h */,
+				BB18683A21A5C8AB00D05942 /* FBSDKEventBinding.h */,
+				BB18683B21A5C8AB00D05942 /* FBSDKCodelessPathComponent.m */,
+			);
+			path = Codeless;
+			sourceTree = "<group>";
+		};
+		BB18684521A5C8AB00D05942 /* WebDialog */ = {
+			isa = PBXGroup;
+			children = (
+				BB18684621A5C8AB00D05942 /* FBSDKWebDialogView.h */,
+				BB18684721A5C8AB00D05942 /* FBSDKWebDialog.h */,
+				BB18684821A5C8AB00D05942 /* FBSDKWebDialog.m */,
+				BB18684921A5C8AB00D05942 /* FBSDKWebDialogView.m */,
+			);
+			path = WebDialog;
+			sourceTree = "<group>";
+		};
+		BB18684E21A5C8AB00D05942 /* TokenCaching */ = {
+			isa = PBXGroup;
+			children = (
+				BB18684F21A5C8AB00D05942 /* FBSDKAccessTokenCache.h */,
+				BB18685021A5C8AB00D05942 /* FBSDKAccessTokenCacheV4.h */,
+				BB18685121A5C8AB00D05942 /* FBSDKAccessTokenCacheV3_17.m */,
+				BB18685221A5C8AB00D05942 /* FBSDKKeychainStore.m */,
+				BB18685321A5C8AB00D05942 /* FBSDKAccessTokenExpirer.m */,
+				BB18685421A5C8AB00D05942 /* FBSDKKeychainStoreViaBundleID.m */,
+				BB18685521A5C8AB00D05942 /* FBSDKAccessTokenCacheV3.h */,
+				BB18685621A5C8AB00D05942 /* FBSDKAccessTokenCacheV3_21.m */,
+				BB18685721A5C8AB00D05942 /* FBSDKAccessTokenCacheV3_17.h */,
+				BB18685821A5C8AB00D05942 /* FBSDKAccessTokenCacheV4.m */,
+				BB18685921A5C8AB00D05942 /* FBSDKAccessTokenCaching.h */,
+				BB18685A21A5C8AB00D05942 /* FBSDKAccessTokenCache.m */,
+				BB18685B21A5C8AB00D05942 /* FBSDKKeychainStoreViaBundleID.h */,
+				BB18685C21A5C8AB00D05942 /* FBSDKAccessTokenExpirer.h */,
+				BB18685D21A5C8AB00D05942 /* FBSDKKeychainStore.h */,
+				BB18685E21A5C8AB00D05942 /* FBSDKAccessTokenCacheV3.m */,
+				BB18685F21A5C8AB00D05942 /* FBSDKAccessTokenCacheV3_21.h */,
+			);
+			path = TokenCaching;
+			sourceTree = "<group>";
+		};
+		BB18686821A5C8AB00D05942 /* BridgeAPI */ = {
+			isa = PBXGroup;
+			children = (
+				BB18686921A5C8AB00D05942 /* FBSDKURLOpening.h */,
+				BB18686A21A5C8AB00D05942 /* FBSDKBridgeAPIRequest.h */,
+				BB18686B21A5C8AB00D05942 /* FBSDKBridgeAPIProtocolType.h */,
+				BB18686C21A5C8AB00D05942 /* FBSDKBridgeAPIProtocol.h */,
+				BB18686D21A5C8AB00D05942 /* FBSDKBridgeAPICrypto.h */,
+				BB18686E21A5C8AB00D05942 /* FBSDKBridgeAPIResponse.h */,
+				BB18686F21A5C8AB00D05942 /* FBSDKBridgeAPIRequest.m */,
+				BB18687021A5C8AB00D05942 /* FBSDKBridgeAPIRequest+Private.h */,
+				BB18687121A5C8AB00D05942 /* FBSDKBridgeAPIResponse.m */,
+				BB18687221A5C8AB00D05942 /* FBSDKBridgeAPICrypto.m */,
+				BB18687321A5C8AB00D05942 /* ProtocolVersions */,
+			);
+			path = BridgeAPI;
+			sourceTree = "<group>";
+		};
+		BB18687321A5C8AB00D05942 /* ProtocolVersions */ = {
+			isa = PBXGroup;
+			children = (
+				BB18687421A5C8AB00D05942 /* FBSDKBridgeAPIProtocolWebV1.h */,
+				BB18687521A5C8AB00D05942 /* FBSDKBridgeAPIProtocolNativeV1.m */,
+				BB18687621A5C8AB00D05942 /* FBSDKBridgeAPIProtocolWebV2.h */,
+				BB18687721A5C8AB00D05942 /* FBSDKBridgeAPIProtocolWebV1.m */,
+				BB18687821A5C8AB00D05942 /* FBSDKBridgeAPIProtocolNativeV1.h */,
+				BB18687921A5C8AB00D05942 /* FBSDKBridgeAPIProtocolWebV2.m */,
+			);
+			path = ProtocolVersions;
+			sourceTree = "<group>";
+		};
+		BB18687D21A5C8AB00D05942 /* ServerConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				BB18687E21A5C8AB00D05942 /* FBSDKErrorRecoveryConfiguration.m */,
+				BB18687F21A5C8AB00D05942 /* FBSDKServerConfiguration.h */,
+				BB18688021A5C8AB00D05942 /* FBSDKErrorConfiguration.h */,
+				BB18688121A5C8AB00D05942 /* FBSDKServerConfigurationManager+Internal.h */,
+				BB18688221A5C8AB00D05942 /* FBSDKServerConfigurationManager.m */,
+				BB18688321A5C8AB00D05942 /* FBSDKGateKeeperManager.h */,
+				BB18688421A5C8AB00D05942 /* FBSDKDialogConfiguration.h */,
+				BB18688521A5C8AB00D05942 /* FBSDKErrorRecoveryConfiguration.h */,
+				BB18688621A5C8AB00D05942 /* FBSDKServerConfigurationManager.h */,
+				BB18688721A5C8AB00D05942 /* FBSDKServerConfiguration.m */,
+				BB18688821A5C8AB00D05942 /* FBSDKErrorConfiguration.m */,
+				BB18688921A5C8AB00D05942 /* FBSDKGateKeeperManager.m */,
+				BB18688A21A5C8AB00D05942 /* FBSDKServerConfiguration+Internal.h */,
+				BB18688B21A5C8AB00D05942 /* FBSDKDialogConfiguration.m */,
+			);
+			path = ServerConfiguration;
+			sourceTree = "<group>";
+		};
+		BB18688D21A5C8AB00D05942 /* AppLink */ = {
+			isa = PBXGroup;
+			children = (
+				BB18688E21A5C8AB00D05942 /* FBSDKBoltsMeasurementEventListener.m */,
+				BB18688F21A5C8AB00D05942 /* FBSDKBoltsMeasurementEventListener.h */,
+			);
+			path = AppLink;
+			sourceTree = "<group>";
+		};
+		BB18689421A5C8AB00D05942 /* Internal_NoARC */ = {
+			isa = PBXGroup;
+			children = (
+				BB18689521A5C8AB00D05942 /* FBSDKDynamicFrameworkLoader.m */,
+			);
+			path = Internal_NoARC;
+			sourceTree = "<group>";
+		};
+		BB1868BA21A5C8AC00D05942 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				BB1868BB21A5C8AC00D05942 /* LICENSE */,
+				BB1868BC21A5C8AC00D05942 /* Source */,
+				BB1868BE21A5C8AC00D05942 /* README.md */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		BB1868BC21A5C8AC00D05942 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BB1868BD21A5C8AC00D05942 /* SwiftyJSON.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		BB1868C021A5C8AC00D05942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB18698B21A5C8AC00D05942 /* Bolts.framework */,
+				BB18698D21A5C8AC00D05942 /* FacebookCore.framework */,
+				BB18698F21A5C8AC00D05942 /* FacebookLogin.framework */,
+				BB18699121A5C8AC00D05942 /* FBSDKCoreKit.framework */,
+				BB18699321A5C8AC00D05942 /* FBSDKLoginKit.framework */,
+				BB18699521A5C8AC00D05942 /* Pods_StreetBasketBallSwift.framework */,
+				BB18699721A5C8AC00D05942 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB1868C221A5C8AC00D05942 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB1868C321A5C8AC00D05942 /* FBSDKCoreKit */,
+				BB1868CA21A5C8AC00D05942 /* SwiftyJSON */,
+				BB1868D121A5C8AC00D05942 /* Pods-StreetBasketBallSwift */,
+				BB1868DB21A5C8AC00D05942 /* Bolts */,
+				BB1868E221A5C8AC00D05942 /* FacebookCore */,
+				BB1868E921A5C8AC00D05942 /* FBSDKLoginKit */,
+				BB1868F021A5C8AC00D05942 /* FacebookLogin */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		BB1868C321A5C8AC00D05942 /* FBSDKCoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB1868C421A5C8AC00D05942 /* FBSDKCoreKit-umbrella.h */,
+				BB1868C521A5C8AC00D05942 /* FBSDKCoreKit.xcconfig */,
+				BB1868C621A5C8AC00D05942 /* FBSDKCoreKit-prefix.pch */,
+				BB1868C721A5C8AC00D05942 /* FBSDKCoreKit-dummy.m */,
+				BB1868C821A5C8AC00D05942 /* FBSDKCoreKit.modulemap */,
+				BB1868C921A5C8AC00D05942 /* FBSDKCoreKit-Info.plist */,
+			);
+			path = FBSDKCoreKit;
+			sourceTree = "<group>";
+		};
+		BB1868CA21A5C8AC00D05942 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				BB1868CB21A5C8AC00D05942 /* SwiftyJSON.modulemap */,
+				BB1868CC21A5C8AC00D05942 /* SwiftyJSON-umbrella.h */,
+				BB1868CD21A5C8AC00D05942 /* SwiftyJSON-prefix.pch */,
+				BB1868CE21A5C8AC00D05942 /* SwiftyJSON-dummy.m */,
+				BB1868CF21A5C8AC00D05942 /* SwiftyJSON.xcconfig */,
+				BB1868D021A5C8AC00D05942 /* SwiftyJSON-Info.plist */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		BB1868D121A5C8AC00D05942 /* Pods-StreetBasketBallSwift */ = {
+			isa = PBXGroup;
+			children = (
+				BB1868D221A5C8AC00D05942 /* Pods-StreetBasketBallSwift-acknowledgements.markdown */,
+				BB1868D321A5C8AC00D05942 /* Pods-StreetBasketBallSwift.modulemap */,
+				BB1868D421A5C8AC00D05942 /* Pods-StreetBasketBallSwift.debug.xcconfig */,
+				BB1868D521A5C8AC00D05942 /* Pods-StreetBasketBallSwift-Info.plist */,
+				BB1868D621A5C8AC00D05942 /* Pods-StreetBasketBallSwift-umbrella.h */,
+				BB1868D721A5C8AC00D05942 /* Pods-StreetBasketBallSwift-acknowledgements.plist */,
+				BB1868D821A5C8AC00D05942 /* Pods-StreetBasketBallSwift-dummy.m */,
+				BB1868D921A5C8AC00D05942 /* Pods-StreetBasketBallSwift-frameworks.sh */,
+				BB1868DA21A5C8AC00D05942 /* Pods-StreetBasketBallSwift.release.xcconfig */,
+			);
+			path = "Pods-StreetBasketBallSwift";
+			sourceTree = "<group>";
+		};
+		BB1868DB21A5C8AC00D05942 /* Bolts */ = {
+			isa = PBXGroup;
+			children = (
+				BB1868DC21A5C8AC00D05942 /* Bolts-prefix.pch */,
+				BB1868DD21A5C8AC00D05942 /* Bolts-dummy.m */,
+				BB1868DE21A5C8AC00D05942 /* Bolts-umbrella.h */,
+				BB1868DF21A5C8AC00D05942 /* Bolts.modulemap */,
+				BB1868E021A5C8AC00D05942 /* Bolts.xcconfig */,
+				BB1868E121A5C8AC00D05942 /* Bolts-Info.plist */,
+			);
+			path = Bolts;
+			sourceTree = "<group>";
+		};
+		BB1868E221A5C8AC00D05942 /* FacebookCore */ = {
+			isa = PBXGroup;
+			children = (
+				BB1868E321A5C8AC00D05942 /* FacebookCore-prefix.pch */,
+				BB1868E421A5C8AC00D05942 /* FacebookCore.xcconfig */,
+				BB1868E521A5C8AC00D05942 /* FacebookCore-umbrella.h */,
+				BB1868E621A5C8AC00D05942 /* FacebookCore-Info.plist */,
+				BB1868E721A5C8AC00D05942 /* FacebookCore.modulemap */,
+				BB1868E821A5C8AC00D05942 /* FacebookCore-dummy.m */,
+			);
+			path = FacebookCore;
+			sourceTree = "<group>";
+		};
+		BB1868E921A5C8AC00D05942 /* FBSDKLoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB1868EA21A5C8AC00D05942 /* FBSDKLoginKit-dummy.m */,
+				BB1868EB21A5C8AC00D05942 /* FBSDKLoginKit.modulemap */,
+				BB1868EC21A5C8AC00D05942 /* FBSDKLoginKit-Info.plist */,
+				BB1868ED21A5C8AC00D05942 /* FBSDKLoginKit-umbrella.h */,
+				BB1868EE21A5C8AC00D05942 /* FBSDKLoginKit.xcconfig */,
+				BB1868EF21A5C8AC00D05942 /* FBSDKLoginKit-prefix.pch */,
+			);
+			path = FBSDKLoginKit;
+			sourceTree = "<group>";
+		};
+		BB1868F021A5C8AC00D05942 /* FacebookLogin */ = {
+			isa = PBXGroup;
+			children = (
+				BB1868F121A5C8AC00D05942 /* FacebookLogin.modulemap */,
+				BB1868F221A5C8AC00D05942 /* FacebookLogin-prefix.pch */,
+				BB1868F321A5C8AC00D05942 /* FacebookLogin-umbrella.h */,
+				BB1868F421A5C8AC00D05942 /* FacebookLogin-Info.plist */,
+				BB1868F521A5C8AC00D05942 /* FacebookLogin.xcconfig */,
+				BB1868F621A5C8AC00D05942 /* FacebookLogin-dummy.m */,
+			);
+			path = FacebookLogin;
+			sourceTree = "<group>";
+		};
+		BB1868F821A5C8AC00D05942 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		BB1868F921A5C8AC00D05942 /* Bolts */ = {
+			isa = PBXGroup;
+			children = (
+				BB1868FA21A5C8AC00D05942 /* LICENSE */,
+				BB1868FB21A5C8AC00D05942 /* Bolts */,
+				BB18692321A5C8AC00D05942 /* README.md */,
+			);
+			path = Bolts;
+			sourceTree = "<group>";
+		};
+		BB1868FB21A5C8AC00D05942 /* Bolts */ = {
+			isa = PBXGroup;
+			children = (
+				BB1868FC21A5C8AC00D05942 /* iOS */,
+				BB18691321A5C8AC00D05942 /* Common */,
+			);
+			path = Bolts;
+			sourceTree = "<group>";
+		};
+		BB1868FC21A5C8AC00D05942 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BB1868FD21A5C8AC00D05942 /* BFAppLinkReturnToRefererView.h */,
+				BB1868FE21A5C8AC00D05942 /* BFAppLinkNavigation.h */,
+				BB1868FF21A5C8AC00D05942 /* BFAppLink.m */,
+				BB18690021A5C8AC00D05942 /* BFWebViewAppLinkResolver.m */,
+				BB18690121A5C8AC00D05942 /* BFAppLinkReturnToRefererController.h */,
+				BB18690221A5C8AC00D05942 /* Internal */,
+				BB18690721A5C8AC00D05942 /* BFURL.m */,
+				BB18690821A5C8AC00D05942 /* BFMeasurementEvent.m */,
+				BB18690921A5C8AC00D05942 /* BFAppLinkTarget.h */,
+				BB18690A21A5C8AC00D05942 /* BFAppLinkNavigation.m */,
+				BB18690B21A5C8AC00D05942 /* BFAppLinkReturnToRefererView.m */,
+				BB18690C21A5C8AC00D05942 /* BFWebViewAppLinkResolver.h */,
+				BB18690D21A5C8AC00D05942 /* BFAppLink.h */,
+				BB18690E21A5C8AC00D05942 /* BFAppLinkReturnToRefererController.m */,
+				BB18690F21A5C8AC00D05942 /* BFAppLinkResolving.h */,
+				BB18691021A5C8AC00D05942 /* BFAppLinkTarget.m */,
+				BB18691121A5C8AC00D05942 /* BFMeasurementEvent.h */,
+				BB18691221A5C8AC00D05942 /* BFURL.h */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		BB18690221A5C8AC00D05942 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				BB18690321A5C8AC00D05942 /* BFMeasurementEvent_Internal.h */,
+				BB18690421A5C8AC00D05942 /* BFAppLink_Internal.h */,
+				BB18690521A5C8AC00D05942 /* BFAppLinkReturnToRefererView_Internal.h */,
+				BB18690621A5C8AC00D05942 /* BFURL_Internal.h */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		BB18691321A5C8AC00D05942 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BB18691421A5C8AC00D05942 /* BFCancellationTokenSource.h */,
+				BB18691521A5C8AC00D05942 /* BFExecutor.m */,
+				BB18691621A5C8AC00D05942 /* Bolts.h */,
+				BB18691721A5C8AC00D05942 /* BFTaskCompletionSource.m */,
+				BB18691821A5C8AC00D05942 /* BFTask.m */,
+				BB18691921A5C8AC00D05942 /* BFCancellationTokenRegistration.h */,
+				BB18691A21A5C8AC00D05942 /* BFCancellationToken.h */,
+				BB18691B21A5C8AC00D05942 /* Bolts.m */,
+				BB18691C21A5C8AC00D05942 /* BFExecutor.h */,
+				BB18691D21A5C8AC00D05942 /* BFCancellationTokenSource.m */,
+				BB18691E21A5C8AC00D05942 /* BFCancellationTokenRegistration.m */,
+				BB18691F21A5C8AC00D05942 /* BFTask.h */,
+				BB18692021A5C8AC00D05942 /* BFTaskCompletionSource.h */,
+				BB18692121A5C8AC00D05942 /* BFCancellationToken.m */,
+				BB18692221A5C8AC00D05942 /* BFGeneric.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BB18692421A5C8AC00D05942 /* FacebookCore */ = {
+			isa = PBXGroup;
+			children = (
+				BB18692521A5C8AC00D05942 /* LICENSE */,
+				BB18692621A5C8AC00D05942 /* README.md */,
+				BB18692721A5C8AC00D05942 /* Sources */,
+			);
+			path = FacebookCore;
+			sourceTree = "<group>";
+		};
+		BB18692721A5C8AC00D05942 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BB18692821A5C8AC00D05942 /* Core */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BB18692821A5C8AC00D05942 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BB18692921A5C8AC00D05942 /* GraphRequest */,
+				BB18693421A5C8AC00D05942 /* Internal */,
+				BB18693821A5C8AC00D05942 /* AppEvents */,
+				BB18693F21A5C8AC00D05942 /* Permissions */,
+				BB18694321A5C8AC00D05942 /* Common */,
+				BB18694821A5C8AC00D05942 /* UserProfile */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BB18692921A5C8AC00D05942 /* GraphRequest */ = {
+			isa = PBXGroup;
+			children = (
+				BB18692A21A5C8AC00D05942 /* GraphRequestConnectionDelegateBridge.swift */,
+				BB18692B21A5C8AC00D05942 /* GraphRequestConnection.swift */,
+				BB18692C21A5C8AC00D05942 /* GraphRequestResult.swift */,
+				BB18692D21A5C8AC00D05942 /* GraphAPIVersion.swift */,
+				BB18692E21A5C8AC00D05942 /* GraphRequestProtocol.swift */,
+				BB18692F21A5C8AC00D05942 /* GraphResponse.swift */,
+				BB18693021A5C8AC00D05942 /* GraphRequest.swift */,
+				BB18693121A5C8AC00D05942 /* GraphRequestProtocol.Bridge.swift */,
+				BB18693221A5C8AC00D05942 /* GraphResponseProtocol.swift */,
+				BB18693321A5C8AC00D05942 /* GraphRequestDataAttachment.swift */,
+			);
+			path = GraphRequest;
+			sourceTree = "<group>";
+		};
+		BB18693421A5C8AC00D05942 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				BB18693521A5C8AC00D05942 /* Extensions */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		BB18693521A5C8AC00D05942 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BB18693621A5C8AC00D05942 /* Dictionary+KeyValueMap.swift */,
+				BB18693721A5C8AC00D05942 /* Optional+OnSome.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BB18693821A5C8AC00D05942 /* AppEvents */ = {
+			isa = PBXGroup;
+			children = (
+				BB18693921A5C8AC00D05942 /* AppEventsLogger.swift */,
+				BB18693A21A5C8AC00D05942 /* AppEventParameterName.swift */,
+				BB18693B21A5C8AC00D05942 /* AppEventName.swift */,
+				BB18693C21A5C8AC00D05942 /* AppEvent.swift */,
+				BB18693D21A5C8AC00D05942 /* AppEvent.Builtin.swift */,
+				BB18693E21A5C8AC00D05942 /* AppEventsLogger.FlushBehavior.swift */,
+			);
+			path = AppEvents;
+			sourceTree = "<group>";
+		};
+		BB18693F21A5C8AC00D05942 /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				BB18694021A5C8AC00D05942 /* Permission.swift */,
+				BB18694121A5C8AC00D05942 /* PublishPermission.swift */,
+				BB18694221A5C8AC00D05942 /* ReadPermission.swift */,
+			);
+			path = Permissions;
+			sourceTree = "<group>";
+		};
+		BB18694321A5C8AC00D05942 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BB18694421A5C8AC00D05942 /* AccessToken.swift */,
+				BB18694521A5C8AC00D05942 /* SDKLoggingBehavior.swift */,
+				BB18694621A5C8AC00D05942 /* SDKApplicationDelegate.swift */,
+				BB18694721A5C8AC00D05942 /* SDKSettings.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BB18694821A5C8AC00D05942 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				BB18694921A5C8AC00D05942 /* UserProfile.swift */,
+				BB18694A21A5C8AC00D05942 /* UserProfile.PictureView.swift */,
+				BB18694B21A5C8AC00D05942 /* UserProfile.FetchResult.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		BB18694C21A5C8AC00D05942 /* FBSDKLoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB18694D21A5C8AC00D05942 /* LICENSE */,
+				BB18694E21A5C8AC00D05942 /* README.md */,
+				BB18694F21A5C8AC00D05942 /* FBSDKLoginKit */,
+			);
+			path = FBSDKLoginKit;
+			sourceTree = "<group>";
+		};
+		BB18694F21A5C8AC00D05942 /* FBSDKLoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB18695021A5C8AC00D05942 /* FBSDKLoginKit */,
+			);
+			path = FBSDKLoginKit;
+			sourceTree = "<group>";
+		};
+		BB18695021A5C8AC00D05942 /* FBSDKLoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB18695121A5C8AC00D05942 /* FBSDKDeviceLoginManagerResult.h */,
+				BB18695221A5C8AC00D05942 /* FBSDKLoginButton.h */,
+				BB18695321A5C8AC00D05942 /* FBSDKLoginConstants.h */,
+				BB18695421A5C8AC00D05942 /* FBSDKDeviceLoginCodeInfo.m */,
+				BB18695521A5C8AC00D05942 /* FBSDKDeviceLoginManager.h */,
+				BB18695621A5C8AC00D05942 /* FBSDKLoginManagerLoginResult.m */,
+				BB18695721A5C8AC00D05942 /* Internal */,
+				BB18696821A5C8AC00D05942 /* FBSDKTooltipView.h */,
+				BB18696921A5C8AC00D05942 /* FBSDKLoginTooltipView.m */,
+				BB18696A21A5C8AC00D05942 /* FBSDKLoginManager.h */,
+				BB18696B21A5C8AC00D05942 /* FBSDKLoginButton.m */,
+				BB18696C21A5C8AC00D05942 /* FBSDKDeviceLoginManagerResult.m */,
+				BB18696D21A5C8AC00D05942 /* FBSDKLoginKit.h */,
+				BB18696E21A5C8AC00D05942 /* FBSDKLoginConstants.m */,
+				BB18696F21A5C8AC00D05942 /* FBSDKDeviceLoginManager.m */,
+				BB18697021A5C8AC00D05942 /* FBSDKDeviceLoginCodeInfo.h */,
+				BB18697121A5C8AC00D05942 /* FBSDKLoginManager.m */,
+				BB18697221A5C8AC00D05942 /* FBSDKLoginTooltipView.h */,
+				BB18697321A5C8AC00D05942 /* FBSDKTooltipView.m */,
+				BB18697421A5C8AC00D05942 /* FBSDKLoginManagerLoginResult.h */,
+			);
+			path = FBSDKLoginKit;
+			sourceTree = "<group>";
+		};
+		BB18695721A5C8AC00D05942 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				BB18695821A5C8AC00D05942 /* FBSDKLoginCompletion.h */,
+				BB18695921A5C8AC00D05942 /* FBSDKDeviceLoginManagerResult+Internal.h */,
+				BB18695A21A5C8AC00D05942 /* FBSDKLoginManagerLogger.h */,
+				BB18695B21A5C8AC00D05942 /* _FBSDKLoginRecoveryAttempter.m */,
+				BB18695C21A5C8AC00D05942 /* FBSDKLoginUtility.m */,
+				BB18695D21A5C8AC00D05942 /* FBSDKLoginError.h */,
+				BB18695E21A5C8AC00D05942 /* FBSDKDeviceLoginCodeInfo+Internal.h */,
+				BB18695F21A5C8AC00D05942 /* FBSDKLoginKit+Internal.h */,
+				BB18696021A5C8AC00D05942 /* FBSDKLoginCompletion.m */,
+				BB18696121A5C8AC00D05942 /* FBSDKLoginManagerLoginResult+Internal.h */,
+				BB18696221A5C8AC00D05942 /* FBSDKLoginManagerLogger.m */,
+				BB18696321A5C8AC00D05942 /* FBSDKLoginCompletion+Internal.h */,
+				BB18696421A5C8AC00D05942 /* FBSDKLoginManager+Internal.h */,
+				BB18696521A5C8AC00D05942 /* _FBSDKLoginRecoveryAttempter.h */,
+				BB18696621A5C8AC00D05942 /* FBSDKLoginError.m */,
+				BB18696721A5C8AC00D05942 /* FBSDKLoginUtility.h */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		BB18697521A5C8AC00D05942 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		BB18697621A5C8AC00D05942 /* FacebookLogin */ = {
+			isa = PBXGroup;
+			children = (
+				BB18697721A5C8AC00D05942 /* LICENSE */,
+				BB18697821A5C8AC00D05942 /* README.md */,
+				BB18697921A5C8AC00D05942 /* Sources */,
+			);
+			path = FacebookLogin;
+			sourceTree = "<group>";
+		};
+		BB18697921A5C8AC00D05942 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BB18697A21A5C8AC00D05942 /* Login */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BB18697A21A5C8AC00D05942 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BB18697B21A5C8AC00D05942 /* LoginButton.Tooltip.swift */,
+				BB18697C21A5C8AC00D05942 /* LoginResult.swift */,
+				BB18697D21A5C8AC00D05942 /* LoginButtonDelegateBridge.swift */,
+				BB18697E21A5C8AC00D05942 /* LoginDefaultAudience.swift */,
+				BB18697F21A5C8AC00D05942 /* LoginManager.swift */,
+				BB18698021A5C8AC00D05942 /* LoginButton.swift */,
+				BB18698121A5C8AC00D05942 /* LoginBehavior.swift */,
+				BB18698221A5C8AC00D05942 /* LoginButtonDelegate.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BB547D0F21C40F8B0052D86F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BB547D0D21C40EF10052D86F /* court_panel.jpg */,
+				BB547D0421C40E500052D86F /* basket.jpg */,
+				BB24393B21A223B1001C59DC /* playgroundImage.jpg */,
+				BB24393921A21132001C59DC /* trackme.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		BBB39D692195D21E0029DDA3 = {
@@ -136,6 +1397,7 @@
 				BBB39D812195D2240029DDA3 /* LaunchScreen.storyboard */,
 				BBB39D842195D2240029DDA3 /* Info.plist */,
 				BBB39D7C2195D21F0029DDA3 /* StreetBasketBallSwift.xcdatamodeld */,
+				BB85C5E421A3D0A600E02B0A /* RatingControl.swift */,
 			);
 			path = StreetBasketBallSwift;
 			sourceTree = "<group>";
@@ -171,9 +1433,14 @@
 		BBC03CC82196F20E00F5A5F2 /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				BB547D0F21C40F8B0052D86F /* Images */,
+				BB548B46219BF9630035B8B6 /* Playgrounds.json */,
 				BBB39D792195D21F0029DDA3 /* Main.storyboard */,
 				BBC03CC92196F22000F5A5F2 /* PlaygroundsViewController.swift */,
 				BB95265F219733BC00BD36BE /* Playground.swift */,
+				BB24393D21A2244F001C59DC /* PlaygroundsTableViewController.swift */,
+				BB222E9D21B2FA670042B645 /* PlaygroundTableViewCell.swift */,
+				BB8EBCD021DF0B250095F25A /* PlaygroundDetailViewController.swift */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
@@ -181,6 +1448,7 @@
 		CFFDF42DA852D58DCA9B1433 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BB1867D821A5C8AB00D05942 /* Pods */,
 				BBB011462195D60200FDD1BA /* FBSDKLoginKit */,
 				CB0E3187D0A8D19F0D17B30D /* Pods_StreetBasketBallSwift.framework */,
 				F40802081F91181DE76AC68F /* Pods_StreetBasketBallSwiftTests.framework */,
@@ -259,13 +1527,16 @@
 				TargetAttributes = {
 					BBB39D712195D21E0029DDA3 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 					BBB39D882195D2250029DDA3 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = BBB39D712195D21E0029DDA3;
 					};
 					BBB39D932195D2250029DDA3 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = BBB39D712195D21E0029DDA3;
 					};
 				};
@@ -281,6 +1552,12 @@
 			mainGroup = BBB39D692195D21E0029DDA3;
 			productRefGroup = BBB39D732195D21E0029DDA3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BB1868C021A5C8AC00D05942 /* Products */;
+					ProjectRef = BB1868BF21A5C8AC00D05942 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BBB39D712195D21E0029DDA3 /* StreetBasketBallSwift */,
@@ -290,6 +1567,58 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		BB18698B21A5C8AC00D05942 /* Bolts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Bolts.framework;
+			remoteRef = BB18698A21A5C8AC00D05942 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB18698D21A5C8AC00D05942 /* FacebookCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FacebookCore.framework;
+			remoteRef = BB18698C21A5C8AC00D05942 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB18698F21A5C8AC00D05942 /* FacebookLogin.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FacebookLogin.framework;
+			remoteRef = BB18698E21A5C8AC00D05942 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB18699121A5C8AC00D05942 /* FBSDKCoreKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBSDKCoreKit.framework;
+			remoteRef = BB18699021A5C8AC00D05942 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB18699321A5C8AC00D05942 /* FBSDKLoginKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBSDKLoginKit.framework;
+			remoteRef = BB18699221A5C8AC00D05942 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB18699521A5C8AC00D05942 /* Pods_StreetBasketBallSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_StreetBasketBallSwift.framework;
+			remoteRef = BB18699421A5C8AC00D05942 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB18699721A5C8AC00D05942 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = BB18699621A5C8AC00D05942 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		BBB39D702195D21E0029DDA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -297,8 +1626,13 @@
 			files = (
 				BBB39D832195D2240029DDA3 /* LaunchScreen.storyboard in Resources */,
 				BBB39D802195D2240029DDA3 /* Assets.xcassets in Resources */,
+				BB24393C21A223B2001C59DC /* playgroundImage.jpg in Resources */,
+				BB548B47219BF9630035B8B6 /* Playgrounds.json in Resources */,
+				BB547D0E21C40EF10052D86F /* court_panel.jpg in Resources */,
 				BB5C268F2195D74C0028837E /* Podfile in Resources */,
+				BB547D0C21C40E510052D86F /* basket.jpg in Resources */,
 				BBB39D7B2195D21F0029DDA3 /* Main.storyboard in Resources */,
+				BB24393A21A21132001C59DC /* trackme.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +1683,7 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
 				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -357,6 +1692,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -372,10 +1708,14 @@
 			files = (
 				BBC03CC22195FF0C00F5A5F2 /* LoginSuccessViewController.swift in Sources */,
 				BBB39D782195D21F0029DDA3 /* ViewController.swift in Sources */,
+				BB222E9E21B2FA670042B645 /* PlaygroundTableViewCell.swift in Sources */,
 				BBB39D7E2195D21F0029DDA3 /* StreetBasketBallSwift.xcdatamodeld in Sources */,
 				BBC03CCA2196F22000F5A5F2 /* PlaygroundsViewController.swift in Sources */,
+				BB85C5E521A3D0A600E02B0A /* RatingControl.swift in Sources */,
+				BB8EBCD121DF0B250095F25A /* PlaygroundDetailViewController.swift in Sources */,
 				BB952660219733BC00BD36BE /* Playground.swift in Sources */,
 				BBC03CC6219600A500F5A5F2 /* SelectFirstDisplayNavigationController.swift in Sources */,
+				BB24393E21A2244F001C59DC /* PlaygroundsTableViewController.swift in Sources */,
 				BBB39D762195D21E0029DDA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,7 +1899,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = roses.com.StreetBasketBallSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -578,7 +1918,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = roses.com.StreetBasketBallSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -598,7 +1938,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = roses.com.StreetBasketBallSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreetBasketBallSwift.app/StreetBasketBallSwift";
 			};
@@ -619,7 +1959,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = roses.com.StreetBasketBallSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreetBasketBallSwift.app/StreetBasketBallSwift";
 			};
@@ -639,7 +1979,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = roses.com.StreetBasketBallSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = StreetBasketBallSwift;
 			};
@@ -659,7 +1999,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = roses.com.StreetBasketBallSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = StreetBasketBallSwift;
 			};
